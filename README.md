@@ -36,8 +36,11 @@ Once running, access BerryPy at: **http://127.0.0.1:8001**
 #### Option 1: BerryCore (Recommended)
 
 ```bash
-# Install Python and BerryPy
-qpkg install python berrypy
+# Install Python
+qpkg install python3
+
+# Install BerryPy
+qpkg install berrypy
 
 # Start BerryPy
 berrypy start
