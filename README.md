@@ -33,8 +33,6 @@ Once running, access BerryPy at: **http://127.0.0.1:8001**
 
 ### For Users
 
-#### Option 1: BerryCore (Recommended)
-
 ```bash
 # Install Python
 qpkg install python3
@@ -46,15 +44,6 @@ qpkg install berrypy
 berrypy start
 
 # Open browser to http://127.0.0.1:8001
-```
-
-#### Option 2: Standalone Installation
-
-```bash
-# Download and run installer
-curl -O https://berrystore.sw7ft.com/setup.sh
-chmod +x setup.sh
-./setup.sh
 ```
 
 📖 **Full installation guide:** [docs/INSTALL.md](docs/INSTALL.md)
@@ -121,6 +110,10 @@ BerryPy/
 │   ├── news_manager.py      #    News system
 │   └── app-icons/           #    48x48 PNG icons
 │
+├── port/                    # 🎯 Official BerryCore Port
+│   ├── web-berrypy-2.0.zip  #    Ready-to-install package
+│   └── README.md            #    Port documentation
+│
 ├── build-port.sh            # 🔨 Package builder script
 ├── taskapp.zip              # 📦 Original source archive
 │
@@ -143,9 +136,10 @@ BerryPy/
 ```bash
 # Build BerryCore package
 ./build-port.sh
-```
 
-**Output:** `web-berrypy-2.0.zip` (80KB)
+# Output: web-berrypy-2.0.zip (80KB)
+# Automatically copied to port/ directory
+```
 
 **Package contents:**
 ```
@@ -158,6 +152,8 @@ web-berrypy-2.0.zip
 │   └── ...
 └── doc/                     # Documentation
 ```
+
+📦 **Official package:** [port/web-berrypy-2.0.zip](port/web-berrypy-2.0.zip)
 
 ### Testing
 
@@ -308,13 +304,14 @@ berrypy logs
 ## ⚙️ Requirements
 
 - **Device:** BlackBerry BB10 (any model with QNX)
-- **Python:** 3.11 or higher
+- **BerryCore:** Package manager (required)
+- **Python:** 3.11 or higher (install via `qpkg install python3`)
 - **Storage:** ~80KB for BerryPy (apps vary)
 - **Network:** Internet connection for app downloads
 
-**Optional:**
-- BerryCore package manager (recommended)
-- SSH access for development
+**For Development:**
+- SSH access to device
+- Git for version control
 
 ---
 

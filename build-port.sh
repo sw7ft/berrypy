@@ -393,6 +393,13 @@ unzip -l ${PACKAGE_NAME} | head -20
 # Clean up build directory
 rm -rf port-build/
 
+# Copy to port/ directory
+echo ""
+echo "Copying package to port/ directory..."
+mkdir -p port/
+cp ${PACKAGE_NAME} port/
+echo "✓ Package copied to: port/${PACKAGE_NAME}"
+
 # Calculate package size
 PACKAGE_SIZE=$(du -h ${PACKAGE_NAME} | cut -f1)
 
@@ -403,6 +410,7 @@ echo "==================================="
 echo ""
 echo "Package: ${PACKAGE_NAME}"
 echo "Size: ${PACKAGE_SIZE}"
+echo "Location: port/${PACKAGE_NAME}"
 echo ""
 echo "Next steps:"
 echo "1. Add to BerryCore ports directory"
