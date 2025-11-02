@@ -1,25 +1,31 @@
-# 🫐 BerryPy - BlackBerry App Platform
+# 🫐 BerryPy
 
-> **Web-based application manager for BlackBerry BB10/QNX devices**
+> **Modern web-based application manager for BlackBerry BB10/QNX devices**
 
 [![Version](https://img.shields.io/badge/version-2.0-purple)](https://github.com/sw7ft/BerryPy)
 [![Platform](https://img.shields.io/badge/platform-BB10%2FQNX-black)](https://github.com/sw7ft/BerryPy)
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+[![Python](https://img.shields.io/badge/python-3.11%2B-blue)](https://python.org)
 
 ---
 
 ## 📱 What is BerryPy?
 
-BerryPy is a web-based application manager for BlackBerry BB10/QNX devices. Install, manage, and monitor Python web applications - all from your BlackBerry browser.
+BerryPy transforms your BlackBerry BB10 into a powerful app platform. Install, manage, and monitor Python applications directly from your browser.
 
-**Features:**
-- 🎨 Modern purple-themed UI optimized for BB10
-- 📦 Install apps from berrystore.sw7ft.com
-- 🔄 Start/stop/monitor running applications
-- ⚙️ Configure auto-start on boot
-- 💜 Custom app icons
+### ✨ Key Features
 
-**Access:** http://127.0.0.1:8001
+- **🎨 Beautiful UI** - Purple-themed interface optimized for BB10 browsers
+- **📦 App Store** - Browse and install apps from berrystore.sw7ft.com
+- **⚡ Process Manager** - Start, stop, and monitor running applications
+- **🔄 Auto-Start** - Configure apps to launch automatically on boot
+- **💜 Custom Icons** - Visual app identification with 48x48px icons
+- **📰 News Feed** - Stay updated with the latest app releases
+- **🤖 Android Support** - Manage APK installations
+
+### 🌐 Access
+
+Once running, access BerryPy at: **http://127.0.0.1:8001**
 
 ---
 
@@ -27,201 +33,350 @@ BerryPy is a web-based application manager for BlackBerry BB10/QNX devices. Inst
 
 ### For Users
 
+#### Option 1: BerryCore (Recommended)
+
 ```bash
-# With BerryCore
+# Install Python and BerryPy
 qpkg install python berrypy
+
+# Start BerryPy
 berrypy start
 
-# Standalone
+# Open browser to http://127.0.0.1:8001
+```
+
+#### Option 2: Standalone Installation
+
+```bash
+# Download and run installer
 curl -O https://berrystore.sw7ft.com/setup.sh
 chmod +x setup.sh
 ./setup.sh
 ```
 
-Open browser to: `http://127.0.0.1:8001`
-
 📖 **Full installation guide:** [docs/INSTALL.md](docs/INSTALL.md)
+
+---
 
 ### For Developers
 
 ```bash
-# Clone and build
+# Clone repository
 git clone https://github.com/sw7ft/BerryPy.git
 cd BerryPy
+
+# Build package
 ./build-port.sh
 
-# Output: web-berrypy-2.0.zip
+# Output: web-berrypy-2.0.zip (80KB)
 ```
 
-📖 **Contributing guide:** [CONTRIBUTING.md](CONTRIBUTING.md)
+📖 **Developer guide:** [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ---
 
 ## 🎯 How It Works
 
 ```
-BerryPy (web interface @ :8001)
-    ↓
-Downloads apps from berrystore.sw7ft.com
-    ↓
-Installs to:
-  - Web apps: ~/apps/
-  - CLI apps: ~/usr/local/bin/
-    ↓
-Manages via web interface
+┌─────────────────────────────────────┐
+│  BlackBerry Browser                 │
+│  http://127.0.0.1:8001             │
+└─────────────────┬───────────────────┘
+                  │
+                  ▼
+┌─────────────────────────────────────┐
+│  BerryPy Flask Server               │
+│  • Manage apps                      │
+│  • Process control                  │
+│  • Download/Install                 │
+└─────────────────┬───────────────────┘
+                  │
+                  ▼
+┌─────────────────────────────────────┐
+│  BerryStore (berrystore.sw7ft.com)  │
+│  • Web apps  → ~/apps/              │
+│  • CLI tools → ~/usr/local/bin/     │
+│  • APK files → Downloads            │
+└─────────────────────────────────────┘
 ```
 
 ---
 
 ## 🛠️ Development
 
-### Building
-
-```bash
-./build-port.sh
-```
-
-Creates `web-berrypy-2.0.zip` (80KB) ready for deployment.
-
-### Testing
-
-**⚠️ CRITICAL:** Always test on actual BB10/QNX device.
-
-```bash
-# On BB10 device:
-cd $NATIVE_TOOLS
-unzip -o /path/to/web-berrypy-2.0.zip
-berrypy start
-# Open browser to http://127.0.0.1:8001
-```
-
 ### Project Structure
 
 ```
 BerryPy/
-├── taskapp/              # Source files
-│   ├── taskapp.py       # Python server
-│   ├── taskmgr.html     # Web interface
-│   └── app-icons/       # App icons (48x48 PNG)
-├── build-port.sh        # Port builder
-└── docs/                # Documentation
+├── taskapp/                  # 📦 Application source
+│   ├── taskapp.py           #    Main Flask server
+│   ├── taskmgr.html         #    Web interface
+│   ├── about.html           #    About page
+│   ├── android.html         #    Android APK manager
+│   ├── auto-config.html     #    Auto-start configuration
+│   ├── news.json            #    News feed data
+│   ├── news_manager.py      #    News system
+│   └── app-icons/           #    48x48 PNG icons
+│
+├── build-port.sh            # 🔨 Package builder script
+├── taskapp.zip              # 📦 Original source archive
+│
+├── docs/                    # 📖 Documentation
+│   ├── QUICK-START.md       #    5-minute setup guide
+│   ├── INSTALL.md           #    Detailed installation
+│   ├── ARCHITECTURE.md      #    System design
+│   ├── CHANGELOG.md         #    Version history
+│   ├── QNX-COMPATIBILITY.md #    BB10/QNX specifics
+│   ├── ICON_UPDATES.md      #    Icon system guide
+│   └── overview.md          #    Detailed overview
+│
+├── CONTRIBUTING.md          # 🤝 Contribution guidelines
+├── LICENSE                  # 📜 MIT License
+└── README.md               # 📄 This file
+```
+
+### Building
+
+```bash
+# Build BerryCore package
+./build-port.sh
+```
+
+**Output:** `web-berrypy-2.0.zip` (80KB)
+
+**Package contents:**
+```
+web-berrypy-2.0.zip
+├── bin/berrypy              # Launcher script
+├── share/berrypy/           # Application files
+│   ├── taskapp.py
+│   ├── taskmgr.html
+│   ├── app-icons/
+│   └── ...
+└── doc/                     # Documentation
+```
+
+### Testing
+
+**⚠️ CRITICAL:** Always test on actual BB10/QNX device before submitting PRs.
+
+```bash
+# Deploy to BB10 device
+scp web-berrypy-2.0.zip bb10:/tmp/
+
+# SSH to device and install
+ssh bb10
+cd $NATIVE_TOOLS
+unzip -o /tmp/web-berrypy-2.0.zip
+
+# Test
+berrypy start
+# Open browser to http://127.0.0.1:8001
 ```
 
 ---
 
 ## 🤝 Contributing
 
-We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+We welcome contributions from the BlackBerry community! 
 
-### Important for BB10/QNX
+### Get Started
 
-- ✅ Use `#!/bin/sh` (not `#!/bin/bash`)
-- ✅ Use `pidin -p` (not `ps -p`) for process detection
-- ✅ Test on actual BB10 device
+1. **Fork** the repository
+2. **Clone** your fork
+3. **Create** a feature branch
+4. **Make** your changes
+5. **Test** on BB10 device
+6. **Submit** a pull request
 
-See [docs/QNX-COMPATIBILITY.md](docs/QNX-COMPATIBILITY.md) for details.
+📖 **Full guide:** [CONTRIBUTING.md](CONTRIBUTING.md)
+
+### Important BB10/QNX Rules
+
+When developing for BB10/QNX, always follow these critical rules:
+
+| Rule | ❌ Wrong | ✅ Correct |
+|------|----------|-----------|
+| **Shebang** | `#!/bin/bash` | `#!/bin/sh` |
+| **Process Check** | `ps -p $PID` | `pidin -p $PID` |
+| **Shell Syntax** | `[[ ]]` | `[ ]` |
+| **String Compare** | `==` | `=` |
+
+**Why?** BB10/QNX doesn't have bash or GNU utilities. Using Linux-specific commands will fail!
+
+📖 **Details:** [docs/QNX-COMPATIBILITY.md](docs/QNX-COMPATIBILITY.md)
 
 ---
 
 ## 📚 Documentation
 
-- **[Quick Start](docs/QUICK-START.md)** - 5-minute setup
-- **[Installation](docs/INSTALL.md)** - Detailed installation
-- **[Architecture](docs/ARCHITECTURE.md)** - How it works
-- **[QNX Compatibility](docs/QNX-COMPATIBILITY.md)** - BB10/QNX specifics
-- **[Changelog](docs/CHANGELOG.md)** - Version history
+| Guide | Description |
+|-------|-------------|
+| [Quick Start](docs/QUICK-START.md) | Get BerryPy running in 5 minutes |
+| [Installation](docs/INSTALL.md) | Detailed installation instructions |
+| [Architecture](docs/ARCHITECTURE.md) | How BerryPy works internally |
+| [QNX Compatibility](docs/QNX-COMPATIBILITY.md) | BB10/QNX development guide |
+| [Changelog](docs/CHANGELOG.md) | Version history and updates |
+| [Icon System](docs/ICON_UPDATES.md) | Adding custom app icons |
 
 ---
 
 ## 🎨 Supported Apps
 
-BerryPy includes icons for:
-- AI-Chat, BB10Git, copyclip
-- RocketChat, Telegram, Term49-Settings
-- Webshell, YouTube
+BerryPy comes with pre-configured icons for popular apps:
 
-All icons are 48x48px PNG optimized for BB10.
+- **🤖 AI-Chat** - AI-powered chat assistant
+- **🐙 BB10Git** - GitHub repository manager  
+- **📋 copyclip** - Clipboard sync tool
+- **💬 RocketChat** - Team communication
+- **✈️ Telegram** - Messaging client
+- **⚙️ Term49-Settings** - Terminal configuration
+- **🖥️ Webshell** - Web-based terminal
+- **📺 YouTube** - Video player
+
+All icons are 48x48px PNG format, optimized for BB10 displays.
+
+**Want to add an icon?** See [docs/ICON_UPDATES.md](docs/ICON_UPDATES.md)
 
 ---
 
 ## 🔧 Commands
 
+BerryPy includes a convenient command-line interface:
+
 ```bash
-berrypy start      # Start server
-berrypy stop       # Stop server
-berrypy restart    # Restart server
-berrypy status     # Check status
-berrypy logs       # View logs
-berrypy help       # Show help
+berrypy start      # Start the BerryPy server
+berrypy stop       # Stop the server gracefully
+berrypy restart    # Restart the server
+berrypy status     # Check if running
+berrypy logs       # View recent log entries
+berrypy url        # Display access URL
+berrypy help       # Show help information
 ```
 
 ---
 
 ## 🐛 Troubleshooting
 
+### Common Issues
+
+**BerryPy won't start:**
 ```bash
+# Check if Python is installed
+which python3
+python3 --version
+
 # Check logs
 berrypy logs
 
-# Verify Python
-which python3
-
-# Check BerryCore environment
-echo $NATIVE_TOOLS
-
-# Test manually
+# Try manual start
 cd $NATIVE_TOOLS/share/berrypy
 python3 taskapp.py
 ```
 
-See [docs/INSTALL.md](docs/INSTALL.md) for more troubleshooting.
-
----
-
-## 📦 Installation Methods
-
-### BerryCore (Recommended)
-
+**Can't access web interface:**
 ```bash
-qpkg install python berrypy
+# Verify BerryPy is running
+berrypy status
+
+# Check if port 8001 is in use
+pidin | grep 8001
+
+# Restart BerryPy
+berrypy restart
 ```
 
-### Standalone
-
+**Apps won't install:**
 ```bash
-curl -O https://berrystore.sw7ft.com/setup.sh
-./setup.sh
+# Check network connectivity
+ping berrystore.sw7ft.com
+
+# Verify disk space
+df -h
+
+# Check logs for errors
+berrypy logs
 ```
+
+📖 **More troubleshooting:** [docs/INSTALL.md](docs/INSTALL.md)
 
 ---
 
 ## ⚙️ Requirements
 
-- BlackBerry BB10/QNX device
-- Python 3.11+
-- ~80KB storage
+- **Device:** BlackBerry BB10 (any model with QNX)
+- **Python:** 3.11 or higher
+- **Storage:** ~80KB for BerryPy (apps vary)
+- **Network:** Internet connection for app downloads
+
+**Optional:**
+- BerryCore package manager (recommended)
+- SSH access for development
+
+---
+
+## 🗺️ Roadmap
+
+Future features under consideration:
+
+- [ ] **App Updates** - Check for and install app updates
+- [ ] **Ratings/Reviews** - Community app feedback
+- [ ] **Search & Filters** - Find apps faster
+- [ ] **Dark Theme** - Alternative color scheme
+- [ ] **Backup/Restore** - Save app configurations
+- [ ] **Multi-language** - Internationalization support
+
+**Want to contribute?** Pick a feature and submit a PR!
 
 ---
 
 ## 📜 License
 
-MIT License - see [LICENSE](LICENSE)
+BerryPy is open source software licensed under the [MIT License](LICENSE).
+
+```
+Copyright (c) 2025 SW7FT
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction...
+```
 
 ---
 
 ## 🔗 Links
 
-- **GitHub:** https://github.com/sw7ft/BerryPy
-- **BerryCore:** https://github.com/sw7ft/BerryCore
-- **Store:** https://berrystore.sw7ft.com
-- **Issues:** https://github.com/sw7ft/BerryPy/issues
+- **📦 Repository:** [github.com/sw7ft/BerryPy](https://github.com/sw7ft/BerryPy)
+- **🎯 BerryCore:** [github.com/sw7ft/BerryCore](https://github.com/sw7ft/BerryCore)
+- **🏪 App Store:** [berrystore.sw7ft.com](https://berrystore.sw7ft.com)
+- **🐛 Issues:** [github.com/sw7ft/BerryPy/issues](https://github.com/sw7ft/BerryPy/issues)
+- **💬 Discussions:** [github.com/sw7ft/BerryPy/discussions](https://github.com/sw7ft/BerryPy/discussions)
 
 ---
 
 ## 🙏 Acknowledgments
 
-Thanks to the BlackBerry community and all contributors!
+Special thanks to:
+
+- The **BlackBerry community** for keeping BB10 alive
+- **Contributors** who help improve BerryPy
+- **App developers** on BerryStore
+- Everyone keeping QNX development active
 
 ---
 
-**Made with 💜 for BlackBerry users everywhere**
+## 📸 Screenshots
+
+*Coming soon! Add screenshots of your BerryPy interface to showcase features.*
+
+---
+
+<div align="center">
+
+**Made with 💜 for BlackBerry enthusiasts everywhere**
+
+*Keep your BB10 alive with BerryPy*
+
+[⭐ Star this repo](https://github.com/sw7ft/BerryPy) • [🐛 Report Bug](https://github.com/sw7ft/BerryPy/issues) • [💡 Request Feature](https://github.com/sw7ft/BerryPy/issues)
+
+</div>
