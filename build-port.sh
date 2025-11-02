@@ -33,8 +33,9 @@ unzip -q taskapp.zip -d temp-extract/
 # Copy main script to bin with wrapper
 echo "Creating launcher script..."
 cat > port-build/bin/berrypy << 'EOF'
-#!/bin/bash
+#!/bin/sh
 # BerryPy Launcher for BerryCore
+# CRITICAL: Must use /bin/sh (not /bin/bash) for BB10/QNX compatibility
 # Starts the BerryPy app manager on port 8001
 
 BERRYPY_DIR="${NATIVE_TOOLS}/share/berrypy"
@@ -73,7 +74,8 @@ HELP
 start_berrypy() {
     if [ -f "$BERRYPY_PID" ]; then
         PID=$(cat "$BERRYPY_PID")
-        if ps -p "$PID" > /dev/null 2>&1; then
+        # CRITICAL: Use pidin (QNX) instead of ps for BB10 compatibility
+        if pidin -p "$PID" > /dev/null 2>&1; then
             echo "BerryPy is already running (PID: $PID)"
             echo "Access at: http://127.0.0.1:8001"
             return 0
@@ -90,7 +92,8 @@ start_berrypy() {
     
     # Wait a moment and verify it started
     sleep 2
-    if ps -p $(cat "$BERRYPY_PID") > /dev/null 2>&1; then
+    # CRITICAL: Use pidin for QNX process detection
+    if pidin -p $(cat "$BERRYPY_PID") > /dev/null 2>&1; then
         echo "✓ BerryPy started successfully!"
         echo ""
         echo "  Access at: http://127.0.0.1:8001"
@@ -112,7 +115,8 @@ stop_berrypy() {
     fi
     
     PID=$(cat "$BERRYPY_PID")
-    if ! ps -p "$PID" > /dev/null 2>&1; then
+    # CRITICAL: Use pidin for QNX process detection
+    if ! pidin -p "$PID" > /dev/null 2>&1; then
         echo "BerryPy is not running (stale PID file)"
         rm -f "$BERRYPY_PID"
         return 0
@@ -123,7 +127,8 @@ stop_berrypy() {
     
     # Wait for process to stop (max 5 seconds)
     for i in 1 2 3 4 5; do
-        if ! ps -p "$PID" > /dev/null 2>&1; then
+        # CRITICAL: Use pidin for QNX process detection
+        if ! pidin -p "$PID" > /dev/null 2>&1; then
             echo "✓ BerryPy stopped successfully"
             rm -f "$BERRYPY_PID"
             return 0
@@ -145,7 +150,8 @@ status_berrypy() {
     fi
     
     PID=$(cat "$BERRYPY_PID")
-    if ps -p "$PID" > /dev/null 2>&1; then
+    # CRITICAL: Use pidin for QNX process detection
+    if pidin -p "$PID" > /dev/null 2>&1; then
         echo "Status: Running (PID: $PID)"
         echo "URL: http://127.0.0.1:8001"
         echo "Logs: $BERRYPY_LOG"
@@ -210,6 +216,15 @@ if [ -d "temp-extract/taskapp" ]; then
 else
     cp -r temp-extract/* port-build/share/berrypy/
 fi
+
+# Remove development artifacts (CRITICAL for clean package)
+echo "Removing development artifacts..."
+rm -f port-build/share/berrypy/taskapp.log
+rm -f port-build/share/berrypy/taskmgr.html.*
+rm -f port-build/share/berrypy/oldmgr.html
+rm -rf port-build/share/berrypy/__MACOSX
+rm -f port-build/share/berrypy/.DS_Store
+find port-build/share/berrypy -name ".DS_Store" -delete
 
 # Create documentation
 echo "Creating documentation..."

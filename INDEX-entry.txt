@@ -1,6 +1,0 @@
-# BerryPy INDEX Entry for BerryCore
-# Add this line to your BerryCore ports/INDEX file
-
-berrypy|web|2.0|150K|BlackBerry App Platform - Full-featured application manager for BB10/QNX
-
-
