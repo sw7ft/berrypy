@@ -1,0 +1,1499 @@
+127.0.0.1 - - [11/Sep/2025 00:53:13] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 00:53:14] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 00:53:14] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 00:53:14] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 00:53:21] "GET /api/app-details?app_name=QNX48-assistant-api-fixed&app_type=web HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 00:53:24] "GET /action?action=install&app_name=QNX48-assistant-api-fixed.zip&app_type=web HTTP/1.1" 303 -
+127.0.0.1 - - [11/Sep/2025 00:53:24] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 00:53:25] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 00:53:25] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 00:53:30] "GET /action?action=start&app_name=QNX48-assistant-api-fixed&app_type=web HTTP/1.1" 303 -
+127.0.0.1 - - [11/Sep/2025 00:53:30] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 00:53:31] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 00:53:31] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 00:53:35] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 00:53:35] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 00:53:35] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 00:55:33] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 00:55:34] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 00:55:34] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 00:55:51] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 00:55:51] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 00:55:51] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 00:55:57] "GET /action?action=start&app_name=QNX48-assistant-api-fixed&app_type=web HTTP/1.1" 303 -
+127.0.0.1 - - [11/Sep/2025 00:55:57] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 00:55:58] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 00:55:58] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 00:59:07] "GET /api/app-details?app_name=Term49-Settings&app_type=web HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 00:59:08] "GET /action?action=install&app_name=Term49-Settings.zip&app_type=web HTTP/1.1" 303 -
+127.0.0.1 - - [11/Sep/2025 00:59:08] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 00:59:10] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 00:59:10] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 00:59:16] "GET /action?action=start&app_name=Term49-Settings&app_type=web HTTP/1.1" 303 -
+127.0.0.1 - - [11/Sep/2025 00:59:16] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 00:59:17] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 00:59:17] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 07:31:31] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 07:31:31] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 07:31:32] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 07:31:32] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 07:31:40] "GET /action?action=start&app_name=Term49-Settings&app_type=web HTTP/1.1" 303 -
+127.0.0.1 - - [11/Sep/2025 07:31:40] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 07:31:40] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 07:31:40] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 07:33:04] "GET /action?action=start&app_name=QNX48-assistant-api-fixed&app_type=web HTTP/1.1" 303 -
+127.0.0.1 - - [11/Sep/2025 07:33:04] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 07:33:05] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 07:33:05] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 10:51:21] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 10:51:22] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 10:51:22] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 10:51:26] "GET /api/app-details?app_name=taskapp-new&app_type=web HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 10:51:27] "GET /action?action=install&app_name=taskapp-new.zip&app_type=web HTTP/1.1" 303 -
+127.0.0.1 - - [11/Sep/2025 10:51:28] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 10:51:28] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 10:51:28] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 10:52:11] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 10:52:12] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 10:52:13] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 10:52:13] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 10:52:13] code 500, message Error loading CLI apps
+127.0.0.1 - - [11/Sep/2025 10:52:13] "GET /api/available-cli HTTP/1.1" 500 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 19389)
+Traceback (most recent call last):
+  File "/accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/apps/taskapp/taskapp.py", line 142, in serve_available_cli_json
+    self.wfile.write(html.encode())
+  File "/accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/python3_ntoarmv7-qnx-static/lib/python3.11/socketserver.py", line 834, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/python3_ntoarmv7-qnx-static/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/python3_ntoarmv7-qnx-static/lib/python3.11/socketserver.py", line 348, in process_request
+    self.finish_request(request, client_address)
+  File "/accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/python3_ntoarmv7-qnx-static/lib/python3.11/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/python3_ntoarmv7-qnx-static/lib/python3.11/socketserver.py", line 755, in __init__
+    self.handle()
+  File "/accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/python3_ntoarmv7-qnx-static/lib/python3.11/http/server.py", line 436, in handle
+    self.handle_one_request()
+  File "/accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/python3_ntoarmv7-qnx-static/lib/python3.11/http/server.py", line 424, in handle_one_request
+    method()
+  File "/accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/apps/taskapp/taskapp.py", line 119, in do_GET
+    self.serve_available_cli_json()
+  File "/accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/apps/taskapp/taskapp.py", line 145, in serve_available_cli_json
+    self.send_error(500, 'Error loading CLI apps')
+  File "/accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/python3_ntoarmv7-qnx-static/lib/python3.11/http/server.py", line 488, in send_error
+    self.end_headers()
+  File "/accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/python3_ntoarmv7-qnx-static/lib/python3.11/http/server.py", line 538, in end_headers
+    self.flush_headers()
+  File "/accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/python3_ntoarmv7-qnx-static/lib/python3.11/http/server.py", line 542, in flush_headers
+    self.wfile.write(b"".join(self._headers_buffer))
+  File "/accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/python3_ntoarmv7-qnx-static/lib/python3.11/socketserver.py", line 834, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+127.0.0.1 - - [11/Sep/2025 11:55:27] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 11:55:28] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 11:55:29] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 11:55:30] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 11:55:33] "GET /api/app-details?app_name=taskapp-new&app_type=web HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 11:55:35] "GET /action?action=install&app_name=taskapp-new.zip&app_type=web HTTP/1.1" 303 -
+127.0.0.1 - - [11/Sep/2025 11:55:35] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 11:55:36] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 11:55:36] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 11:55:51] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 11:55:52] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 11:55:52] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 11:55:52] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 12:26:06] "GET /action?action=stop&pid=53194854 HTTP/1.1" 303 -
+127.0.0.1 - - [11/Sep/2025 12:26:06] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 12:26:25] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 12:26:26] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 12:26:26] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 12:26:53] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 12:26:55] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 12:26:55] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 12:27:36] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 12:27:37] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 12:27:37] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 12:27:40] "GET /api/app-details?app_name=taskapp-new&app_type=web HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 12:27:41] "GET /action?action=install&app_name=taskapp-new.zip&app_type=web HTTP/1.1" 303 -
+127.0.0.1 - - [11/Sep/2025 12:27:41] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 12:27:42] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 12:27:42] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 13:50:57] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 13:50:58] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 13:50:59] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 13:50:59] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 13:51:04] "GET /api/app-details?app_name=taskapp-new&app_type=web HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 13:51:05] "GET /action?action=install&app_name=taskapp-new.zip&app_type=web HTTP/1.1" 303 -
+127.0.0.1 - - [11/Sep/2025 13:51:05] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 13:51:06] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 13:51:06] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 13:55:51] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 13:55:52] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 13:55:53] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 13:55:53] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 13:55:56] "GET /api/app-details?app_name=taskapp-new&app_type=web HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 13:55:57] "GET /action?action=install&app_name=taskapp-new.zip&app_type=web HTTP/1.1" 303 -
+127.0.0.1 - - [11/Sep/2025 13:55:58] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 13:55:58] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 13:55:58] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 13:56:43] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 13:56:44] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 13:56:44] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 13:56:47] "GET /api/app-details?app_name=taskapp-new&app_type=web HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 13:56:48] "GET /action?action=install&app_name=taskapp-new.zip&app_type=web HTTP/1.1" 303 -
+127.0.0.1 - - [11/Sep/2025 13:56:48] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 13:56:49] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 13:56:49] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 14:23:04] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 14:23:06] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 14:23:07] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 14:23:08] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 14:25:42] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 14:25:44] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 14:25:44] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 14:25:49] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 14:25:50] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 14:25:50] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 14:26:12] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 14:26:13] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 14:26:14] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 14:26:15] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 14:26:16] "GET /api/app-details?app_name=nmap&app_type=cli HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 14:26:20] "GET /action?action=install&app_name=nmap.zip&app_type=cli HTTP/1.1" 303 -
+127.0.0.1 - - [11/Sep/2025 14:26:20] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 14:26:21] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 14:26:21] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 17:52:23] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 17:52:25] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 17:52:27] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 17:52:27] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 17:52:55] "GET /action?action=delete&app_name=nc&app_type=cli HTTP/1.1" 303 -
+127.0.0.1 - - [11/Sep/2025 17:52:56] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 17:52:57] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 17:52:57] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 17:53:30] "GET /api/app-details?app_name=taskapp-new&app_type=web HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 17:53:34] "GET /api/app-details?app_name=Webshell&app_type=web HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 17:53:46] "GET /api/app-details?app_name=Webshell&app_type=web HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 17:53:47] "GET /action?action=install&app_name=Webshell.zip&app_type=web HTTP/1.1" 303 -
+127.0.0.1 - - [11/Sep/2025 17:53:47] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 17:53:49] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 17:53:49] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 18:01:13] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 18:01:15] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 18:01:16] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 18:01:16] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 18:01:23] "GET /api/app-details?app_name=doom&app_type=cli HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 18:01:27] "GET /action?action=install&app_name=doom.zip&app_type=cli HTTP/1.1" 303 -
+127.0.0.1 - - [11/Sep/2025 18:01:27] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 18:01:30] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 18:01:30] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 18:02:28] "GET /api/app-details?app_name=xeyes&app_type=cli HTTP/1.1" 200 -
+Note: /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/apps is not in your PATH.
+If you want to run web apps from command line, consider adding:
+export PATH="/accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/apps:$PATH"
+Starting optimized Task Manager...
+Performance improvements:
+- Caching network requests (5min TTL)
+- Timeout handling (10s timeout)
+- Optimized pidin usage
+- Lazy loading for available apps
+Serving on port 8001
+DEBUG: Found 2 processes
+DEBUG: Detecting port for PID 62263385, app task
+DEBUG: Found single listening port via socket check: 8001
+Detected port 8001 for existing process 62263385 (task)
+DEBUG: Detecting port for PID 62275682, app Maps
+DEBUG: Found port 8022 in app.py (PORT constant)
+DEBUG: Verified port 8022 is active
+Detected port 8022 for existing process 62275682 (Maps)
+DEBUG: Found 2 processes
+Deleted CLI app: /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/nc
+DEBUG: Found 2 processes
+Error fetching overview.md for taskapp-new: HTTP Error 404: Not Found
+Error fetching overview.md for Webshell: HTTP Error 404: Not Found
+Error fetching overview.md for Webshell: HTTP Error 404: Not Found
+Downloading http://berrystore.sw7ft.com/apps/Webshell.zip
+Downloaded Webshell.zip to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/apps/Webshell.zip
+Extracted Webshell.zip to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/apps/Webshell
+Removed temporary zip file: /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/apps/Webshell.zip
+DEBUG: Found 2 processes
+DEBUG: Found 2 processes
+DEBUG: Found 2 processes
+Error fetching overview.md for doom: HTTP Error 404: Not Found
+Downloading http://berrystore.sw7ft.com/bins/doom.zip
+Downloaded doom.zip to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/doom.zip
+Extracted binary: doomgeneric_qnx to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted binary: doom to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted library: libXext.so.6 to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libXau.so to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libX11.so.6 to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libXext.so to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libXau.so.6 to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libX11.so to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libxcb.so to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libxcb.so.2 to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted file: doom1.wad to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: README.txt to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/doomgeneric_qnx executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/doom executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/doom1.wad executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/README.txt executable
+Removed temporary zip file: /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/doom.zip
+DEBUG: Found 2 processes
+Error fetching overview.md for xeyes: HTTP Error 404: Not Found
+Downloading http://berrystore.sw7ft.com/bins/xeyes.zip
+Downloaded xeyes.zip to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/xeyes.zip
+Extracted binary: xeyes to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted library: libxcb-xvmc.so.0 to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libxcb-record.so to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libxcb-shape.so to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libxcb-record.so.0 to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libXau.so.6 to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libXext.so.6 to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libX11.so.6 to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libxcb-xkb.so.1 to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libxcb-composite.so.0 to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libxcb-sync.so to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libICE.so to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libxcb-shape.so.0 to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libxcb-present.so.0 to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libxcb-xtest.so to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libxcb-xv.so to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libXfixes.so to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libX11.so to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libxcb-xvmc.so to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libxcb.so to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libxcb-sync.so.1 to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libXmu.so to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libxcb-present.so to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libXi.so.6 to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libxcb-dpms.so to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libxcb-res.so to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libxcb-randr.so to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libXrender.so.1 to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libxcb.so.2 to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libxcb-damage.so to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libXmu.so.6 to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libSM.so to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libxcb-xinerama.so to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libxcb-xf86dri.so to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libxcb-dri2.so to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libxcb-composite.so to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libxcb-xinerama.so.0 to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libxcb-render.so.0 to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libSM.so.6 to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libxcb-randr.so.1 to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libxcb-xinput.so to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libxcb-dri3.so to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libxcb-xfixes.so to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libxcb-xf86dri.so.0 to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libxcb-dri2.so.0 to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libXext.so to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libxcb-xinput.so.1 to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libxcb-shm.so.0 to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libxcb-glx.so to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libxcb-xkb.so to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libxcb-xtest.so.0 to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libxcb-glx.so.0 to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libXau.so to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libXt.so.6 to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libX11-xcb.so to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libxcb-screensaver.so to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libxcb-dpms.so.0 to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libXi.so to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libxcb-screensaver.so.0 to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libxcb-dri3.so.0 to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libXrender.so to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libXfixes.so.3 to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libxcb-render.so to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libICE.so.6 to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libX11-xcb.so.1 to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libxcb-damage.so.0 to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libxcb-shm.so to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libXt.so to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libxcb-xfixes.so.0 to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libxcb-xv.so.0 to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted library: libxcb-res.so.0 to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/lib
+Extracted file: include/X11/extensions/cup.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/dbeproto.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/dpmsconst.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/xtestconst.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/Xge.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/xf86vmstr.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/XIproto.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/shape.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/xtestext1proto.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/lbxproto.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/shapestr.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/multibuf.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/ge.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/XI2proto.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/XKB.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/extutil.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/Xag.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/syncstr.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/multibufconst.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/shapeconst.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/lbx.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/damagewire.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/shmproto.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/mitmiscconst.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/xf86vm.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/XI2.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/EVIproto.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/XKBproto.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/Xext.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/Xcup.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/dri2tokens.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/Xdamage.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/xf86vmproto.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/shapeproto.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/xtestext1const.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/MITMisc.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/XKBstr.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/syncproto.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/multibufproto.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/XKBsrv.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/sync.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/cupproto.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/security.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/dbe.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/xtestext1.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/damageproto.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/shm.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/XKBgeom.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/Xdbe.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/xfixesproto.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/shmstr.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/mitmiscproto.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/xf86vmode.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/XI.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/EVI.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/XShm.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/ag.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/agproto.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/dri2proto.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/Xfixes.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/geproto.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/secur.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/XEVI.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/dpms.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/dpmsproto.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/xfixeswire.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/XLbx.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/xtestproto.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/securproto.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/extensions/syncconst.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/ShellP.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/Xtos.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/XF86keysym.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/Xproto.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/RectObjP.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/ConstrainP.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/Xlib-xcb.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/ObjectP.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/PassivGraI.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/InitialI.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/X.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/Xdmcp.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/Xalloca.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/CoreP.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/keysym.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/ICE/ICElib.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/ICE/ICEproto.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/ICE/ICEmsg.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/ICE/ICEutil.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/ICE/ICEconn.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/ICE/ICE.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/ThreadsI.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/RectObj.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/CallbackI.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/Xarch.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/XWDFile.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/XKBlib.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/Xwinsock.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/HookObjI.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/TranslateI.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/Shell.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/Xprotostr.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/EventI.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/StringDefs.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/Composite.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/Xosdefs.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/Xutil.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/ShellI.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/Xtrans/Xtrans.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/Xtrans/Xtransint.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/Xtrans/Xtranssock.c to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/Xtrans/Xtranslcl.c to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/Xtrans/transport.c to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/Xtrans/Xtransutil.c to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/Xtrans/Xtrans.c to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/Xos.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/Sunkeysym.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/ResourceI.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/SM/SMlib.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/SM/SMproto.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/SM/SM.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/Xmd.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/Xw32defs.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/CreateI.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/IntrinsicI.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/Xthreads.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/Xwindows.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/Core.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/Xlocale.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/Xfuncs.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/keysymdef.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/Constraint.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/HPkeysym.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/SelectionI.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/Intrinsic.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/Xauth.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/Xcms.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/Xpoll.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/IntrinsicP.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/XlibConf.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/ConvertI.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/Xlibint.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/ResConfigP.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/xshmfence.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/VendorP.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/ap_keysym.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/CompositeP.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/Object.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/Vendor.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/ImUtil.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/Xregion.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/VarargsI.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/Xresource.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/Xfuncproto.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/Xatom.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/Xos_r.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/Xlib.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/DECkeysym.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/cursorfont.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: include/X11/Xdefs.h to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: check_libs.sh to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: run_xeyes.sh to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: README.txt to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Extracted file: INSTALL.md to /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/xeyes executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/cup.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/dbeproto.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/dpmsconst.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/xtestconst.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/Xge.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/xf86vmstr.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/XIproto.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/shape.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/xtestext1proto.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/lbxproto.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/shapestr.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/multibuf.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/ge.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/XI2proto.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/XKB.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/extutil.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/Xag.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/syncstr.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/multibufconst.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/shapeconst.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/lbx.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/damagewire.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/shmproto.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/mitmiscconst.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/xf86vm.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/XI2.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/EVIproto.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/XKBproto.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/Xext.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/Xcup.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/dri2tokens.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/Xdamage.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/xf86vmproto.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/shapeproto.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/xtestext1const.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/MITMisc.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/XKBstr.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/syncproto.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/multibufproto.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/XKBsrv.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/sync.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/cupproto.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/security.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/dbe.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/xtestext1.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/damageproto.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/shm.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/XKBgeom.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/Xdbe.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/xfixesproto.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/shmstr.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/mitmiscproto.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/xf86vmode.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/XI.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/EVI.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/XShm.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/ag.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/agproto.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/dri2proto.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/Xfixes.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/geproto.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/secur.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/XEVI.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/dpms.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/dpmsproto.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/xfixeswire.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/XLbx.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/xtestproto.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/securproto.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/extensions/syncconst.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/ShellP.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/Xtos.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/XF86keysym.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/Xproto.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/RectObjP.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/ConstrainP.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/Xlib-xcb.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/ObjectP.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/PassivGraI.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/InitialI.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/X.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/Xdmcp.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/Xalloca.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/CoreP.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/keysym.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/ICE/ICElib.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/ICE/ICEproto.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/ICE/ICEmsg.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/ICE/ICEutil.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/ICE/ICEconn.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/ICE/ICE.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/ThreadsI.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/RectObj.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/CallbackI.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/Xarch.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/XWDFile.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/XKBlib.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/Xwinsock.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/HookObjI.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/TranslateI.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/Shell.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/Xprotostr.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/EventI.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/StringDefs.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/Composite.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/Xosdefs.h executable
+Made /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/usr/local/bin/include/X11/Xutil.h executable127.0.0.1 - - [11/Sep/2025 18:02:34] "GET /action?action=install&app_name=xeyes.zip&app_type=cli HTTP/1.1" 303 -
+127.0.0.1 - - [11/Sep/2025 18:02:34] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 18:02:36] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 18:02:36] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2025 18:03:37] "GET /android HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 00:04:10] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 00:04:11] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 00:04:12] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 00:04:12] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 00:04:20] "GET /api/app-details?app_name=taskapp-new&app_type=web HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 00:04:22] "GET /action?action=install&app_name=taskapp-new.zip&app_type=web HTTP/1.1" 303 -
+127.0.0.1 - - [12/Sep/2025 00:04:22] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 00:04:23] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 00:04:23] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 00:05:14] "GET /action?action=delete&app_name=Maps&app_type=web HTTP/1.1" 303 -
+127.0.0.1 - - [12/Sep/2025 00:05:14] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 00:05:15] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 00:05:16] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 00:05:21] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 00:05:22] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 00:05:22] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 00:05:25] "GET /api/app-details?app_name=Maps&app_type=web HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 03:48:58] "GET /api/app-details?app_name=Stocks&app_type=web HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 03:49:14] "GET /api/app-details?app_name=taskapp-new&app_type=web HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 03:49:15] "GET /action?action=install&app_name=taskapp-new.zip&app_type=web HTTP/1.1" 303 -
+127.0.0.1 - - [12/Sep/2025 03:49:15] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 03:49:17] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 03:49:18] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 13:42:21] "GET /api/app-details?app_name=taskapp-new&app_type=web HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 14:17:53] "GET /action?action=start&app_name=QNX48-assistant-api-fixed&app_type=web HTTP/1.1" 303 -
+127.0.0.1 - - [12/Sep/2025 14:17:53] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 14:17:54] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 14:17:54] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 20:56:17] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 20:56:19] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 20:56:19] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 20:56:29] "GET /api/app-details?app_name=LED-tester&app_type=web HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 20:57:40] "GET /action?action=start&app_name=Term49-Settings&app_type=web HTTP/1.1" 303 -
+127.0.0.1 - - [12/Sep/2025 20:57:40] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 20:57:41] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 20:57:41] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 20:58:39] "GET /action?action=stop&pid=93565025 HTTP/1.1" 303 -
+127.0.0.1 - - [12/Sep/2025 20:58:40] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 20:58:42] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 20:58:42] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 21:18:57] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 21:18:59] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 21:18:59] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 21:19:00] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 21:19:03] "GET /api/app-details?app_name=taskappv1&app_type=web HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 21:19:04] "GET /action?action=install&app_name=taskappv1.zip&app_type=web HTTP/1.1" 303 -
+127.0.0.1 - - [12/Sep/2025 21:19:04] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 21:19:05] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 21:19:06] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 21:24:34] "GET /running HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 21:24:39] "GET /running HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 21:24:44] "GET /running HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 21:24:48] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 21:24:49] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 21:24:50] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 21:24:55] "GET /api/app-details?app_name=taskappv1-fixed&app_type=web HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 21:24:56] "GET /action?action=install&app_name=taskappv1-fixed.zip&app_type=web HTTP/1.1" 303 -
+127.0.0.1 - - [12/Sep/2025 21:24:56] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 21:24:58] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 21:24:58] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 21:35:11] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 21:35:12] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 21:35:14] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 21:35:14] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 21:35:23] "GET /api/app-details?app_name=taskappv1-final&app_type=web HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 21:35:24] "GET /action?action=install&app_name=taskappv1-final.zip&app_type=web HTTP/1.1" 303 -
+127.0.0.1 - - [12/Sep/2025 21:35:24] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 21:35:25] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 21:35:26] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 21:41:18] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 21:41:19] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 21:41:20] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 21:41:20] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 21:41:34] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 21:41:35] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 21:41:35] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 21:41:42] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 21:41:43] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 21:41:43] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 21:42:13] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 21:42:14] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 21:42:14] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 21:42:38] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 21:42:40] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 21:42:40] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 21:43:23] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 21:43:24] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 21:43:24] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 21:43:42] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 21:43:44] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 21:43:44] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 21:43:47] "GET /api/app-details?app_name=taskappv1-ui-fixed&app_type=web HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 21:43:49] "GET /action?action=install&app_name=taskappv1-ui-fixed.zip&app_type=web HTTP/1.1" 303 -
+127.0.0.1 - - [12/Sep/2025 21:43:49] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 21:43:50] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 21:43:50] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 22:28:25] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 22:28:27] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 22:28:27] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 22:28:30] "GET /api/app-details?app_name=taskappv2&app_type=web HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 22:28:31] "GET /action?action=install&app_name=taskappv2.zip&app_type=web HTTP/1.1" 303 -
+127.0.0.1 - - [12/Sep/2025 22:28:31] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 22:28:33] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 22:28:33] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 22:41:32] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 22:41:34] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 22:41:34] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 22:41:47] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 22:41:49] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 22:41:49] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 22:41:53] "GET /api/app-details?app_name=taskappv3&app_type=web HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 22:41:54] "GET /action?action=install&app_name=taskappv3.zip&app_type=web HTTP/1.1" 303 -
+127.0.0.1 - - [12/Sep/2025 22:41:54] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 22:41:56] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 22:41:56] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 22:57:14] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 22:57:15] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 22:57:16] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 22:57:17] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 23:38:15] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 23:38:17] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 23:38:18] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [12/Sep/2025 23:38:19] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2025 09:23:45] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2025 09:23:46] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2025 09:23:48] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2025 09:23:48] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2025 09:25:58] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2025 09:26:00] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2025 09:26:04] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2025 09:26:04] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2025 09:32:41] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2025 09:32:43] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2025 09:32:45] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2025 09:32:45] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2025 09:32:56] "GET /api/app-details?app_name=RocketChat&app_type=web HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2025 09:32:57] "GET /action?action=install&app_name=RocketChat.zip&app_type=web HTTP/1.1" 303 -
+127.0.0.1 - - [13/Sep/2025 09:32:57] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2025 09:32:58] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2025 09:32:58] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2025 09:33:10] "GET /action?action=start&app_name=RocketChat&app_type=web HTTP/1.1" 303 -
+127.0.0.1 - - [13/Sep/2025 09:33:10] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2025 09:33:11] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2025 09:33:11] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2025 09:40:54] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2025 09:40:56] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2025 09:40:56] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2025 09:42:50] "GET /action?action=stop&pid=477221113 HTTP/1.1" 303 -
+127.0.0.1 - - [13/Sep/2025 09:42:50] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2025 09:42:52] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2025 09:42:52] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2025 09:42:59] "GET /action?action=start&app_name=RocketChat&app_type=web HTTP/1.1" 303 -
+127.0.0.1 - - [13/Sep/2025 09:42:59] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2025 09:43:00] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [13/Sep/2025 09:43:00] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 16:21:50] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 16:21:52] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 16:22:02] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 16:22:12] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 16:59:50] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 16:59:52] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 16:59:52] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:00:10] "GET /api/app-details?app_name=Reminders&app_type=web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:02:39] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:02:40] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:02:40] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:02:44] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:02:45] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:02:45] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:03:08] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:03:09] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:03:09] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:04:14] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:04:15] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:04:15] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:04:38] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:04:39] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:04:39] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:04:45] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:04:46] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:04:46] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:05:22] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:05:23] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:05:25] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:05:25] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:05:28] "GET /api/app-details?app_name=SW7FT_DOC&app_type=web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:08:00] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:08:01] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:08:01] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:09:35] "GET /android HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:10:55] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:10:56] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:10:56] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:12:22] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:12:24] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:12:24] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:13:35] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:13:37] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:13:37] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:16:54] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:16:55] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:16:55] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:17:59] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:18:00] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:18:01] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:20:53] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:20:55] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:20:55] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:21:52] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:21:53] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:21:53] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:22:09] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:22:11] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:22:11] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:22:36] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:22:37] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:22:37] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:23:06] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:23:07] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:23:08] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:24:12] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:24:13] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:24:13] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:24:58] "GET /api/app-details?app_name=LED-tester&app_type=web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:25:39] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:25:41] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:25:41] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:25:56] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:25:58] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:25:58] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:27:41] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:27:45] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:27:45] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:29:22] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:29:23] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:29:23] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:30:33] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:30:34] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:30:34] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:31:35] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:31:36] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:31:36] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:32:27] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:32:28] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:32:28] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:33:21] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:33:22] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:33:22] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:33:58] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:37:17] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:37:18] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:37:18] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:38:01] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:38:02] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:38:02] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:38:48] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:38:49] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:38:49] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:38:51] "GET /news HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:41:26] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:41:28] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:41:28] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:42:48] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:42:49] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:42:49] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:43:49] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:43:50] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:43:50] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:44:36] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:44:38] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:44:38] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:45:37] "GET /auto-config HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:45:41] "GET /auto-config HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:46:52] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:46:53] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:46:53] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:47:52] "GET /android HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:48:14] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:48:15] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:48:15] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:48:47] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:48:49] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:48:49] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:49:46] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:49:48] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:49:48] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:50:51] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:50:52] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:50:52] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:52:41] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:52:42] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:52:42] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:52:57] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:52:58] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:52:58] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:54:24] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:54:25] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:54:25] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:55:52] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:55:54] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:55:54] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:56:18] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:56:19] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:56:19] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:56:31] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:56:33] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:56:33] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:56:42] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:56:44] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 17:56:44] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:02:08] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:02:10] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:02:10] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:02:18] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:02:20] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:02:20] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:02:44] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:02:45] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:02:45] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:03:35] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:03:36] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:03:36] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:03:56] "GET /api/app-details?app_name=LED-tester&app_type=web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:04:11] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:04:13] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:04:13] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:04:27] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:04:28] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:04:28] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:04:32] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:04:33] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:04:33] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:04:34] "GET /api/app-details?app_name=clear&app_type=cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:04:48] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:04:50] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:04:50] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:05:10] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:05:12] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:05:12] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:07:04] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:07:06] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:07:06] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:08:36] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:08:38] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:08:38] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:08:43] "GET /api/app-details?app_name=Telegram&app_type=web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:09:16] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:09:17] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:09:17] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:10:33] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:10:34] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:10:34] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:11:22] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:11:23] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:11:23] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:11:33] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:11:34] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:11:34] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:12:27] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:12:29] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:12:29] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:13:03] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:13:04] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:13:05] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:13:55] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:13:57] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:13:57] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:14:19] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:14:20] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:14:20] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:15:27] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:15:29] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:15:29] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:16:25] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:16:27] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:16:27] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:16:31] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:16:32] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:16:32] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:16:56] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:16:57] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:16:57] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:19:24] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:19:25] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:19:26] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:20:30] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:20:31] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:20:32] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:25:44] "GET /about HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:25:48] "GET /android HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:25:51] "GET /auto-config HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:27:29] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:27:31] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:27:31] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:29:04] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:29:05] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:29:05] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:32:23] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:32:24] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 18:32:24] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:06:58] "GET /api/app-details?app_name=clear&app_type=cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:10:15] "GET /api/app-details?app_name=Telegram&app_type=web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:10:28] "GET /api/app-details?app_name=Term49-Settings&app_type=web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:10:30] "GET /action?action=install&app_name=Term49-Settings.zip&app_type=web HTTP/1.1" 303 -
+127.0.0.1 - - [14/Sep/2025 19:10:30] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:10:31] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:10:32] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:11:40] "GET /android HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:11:46] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:11:47] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:11:47] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:13:08] "GET /api/app-details?app_name=Telegram&app_type=web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:13:10] "GET /action?action=install&app_name=Telegram.zip&app_type=web HTTP/1.1" 303 -
+127.0.0.1 - - [14/Sep/2025 19:13:10] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:13:12] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:13:12] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:15:03] "GET /auto-config HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:17:02] "GET /action?action=start&app_name=QNX48-assistant-api-fixed&app_type=web HTTP/1.1" 303 -
+127.0.0.1 - - [14/Sep/2025 19:17:02] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:17:06] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:17:06] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:20:10] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:20:11] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:20:11] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:24:15] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:24:16] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:24:17] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:25:06] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:25:08] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:25:08] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:25:56] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:25:58] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:25:58] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:26:41] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:26:42] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:26:42] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:27:19] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:27:21] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:27:21] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:27:58] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:27:59] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:27:59] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:29:46] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:29:47] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:29:48] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:30:24] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:30:25] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:30:25] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:30:26] "GET /device.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:30:28] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:30:28] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:30:33] "GET /device.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:30:35] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:30:35] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:33:02] "GET /device.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:33:04] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:33:04] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:33:06] "GET /device.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:33:07] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:33:07] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:33:10] "GET /device.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:33:12] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:33:12] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:33:22] "GET /auto-config HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:33:52] "GET /device.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:33:54] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:33:54] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:33:56] "GET /device.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:33:57] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:33:58] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:33:58] "GET /device.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:34:00] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:34:00] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:35:58] "GET /device.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:36:00] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:36:00] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:36:02] "GET /device.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:36:04] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:36:04] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:36:09] "GET /device.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:36:11] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:36:11] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:36:21] "GET /android HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:37:18] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:37:19] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:37:21] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:37:21] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:37:22] "GET /device.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:37:24] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:37:24] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:37:29] "GET /device.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:37:31] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:37:31] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:38:08] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:38:10] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:38:10] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:38:12] "GET /device.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:38:13] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:38:13] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:38:16] "GET /device.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:38:18] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:38:18] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:45:06] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:45:08] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:45:08] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:45:08] "GET /auto-config HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:49:58] "GET /auto-config HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:50:39] "GET /auto-config HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 19:59:27] "GET /auto-config HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 20:00:22] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 20:00:24] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 20:00:24] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 20:55:06] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 20:55:08] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 20:55:08] code 500, message Error loading web apps
+127.0.0.1 - - [14/Sep/2025 20:55:08] "GET /api/available-web HTTP/1.1" 500 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 34602)
+Traceback (most recent call last):
+  File "/accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/apps/taskapp/taskapp.py", line 154, in serve_available_web_json
+    self.wfile.write(html.encode())
+  File "/accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/python3_ntoarmv7-qnx-static/lib/python3.11/socketserver.py", line 834, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/python3_ntoarmv7-qnx-static/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/python3_ntoarmv7-qnx-static/lib/python3.11/socketserver.py", line 348, in process_request
+    self.finish_request(request, client_address)
+  File "/accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/python3_ntoarmv7-qnx-static/lib/python3.11/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/python3_ntoarmv7-qnx-static/lib/python3.11/socketserver.py", line 755, in __init__
+    self.handle()
+  File "/accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/python3_ntoarmv7-qnx-static/lib/python3.11/http/server.py", line 436, in handle
+    self.handle_one_request()
+  File "/accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/python3_ntoarmv7-qnx-static/lib/python3.11/http/server.py", line 424, in handle_one_request
+    method()
+  File "/accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/apps/taskapp/taskapp.py", line 121, in do_GET
+    self.serve_available_web_json()
+  File "/accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/apps/taskapp/taskapp.py", line 157, in serve_available_web_json
+    self.send_error(500, 'Error loading web apps')
+  File "/accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/python3_ntoarmv7-qnx-static/lib/python3.11/http/server.py", line 488, in send_error
+    self.end_headers()
+  File "/accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/python3_ntoarmv7-qnx-static/lib/python3.11/http/server.py", line 538, in end_headers
+    self.flush_headers()
+  File "/accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/python3_ntoarmv7-qnx-static/lib/python3.11/http/server.py", line 542, in flush_headers
+    self.wfile.write(b"".join(self._headers_buffer))
+  File "/accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/python3_ntoarmv7-qnx-static/lib/python3.11/socketserver.py", line 834, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+127.0.0.1 - - [14/Sep/2025 20:55:08] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 20:55:08] code 500, message Error loading CLI apps
+127.0.0.1 - - [14/Sep/2025 20:55:08] "GET /api/available-cli HTTP/1.1" 500 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 34979)
+Traceback (most recent call last):
+  File "/accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/apps/taskapp/taskapp.py", line 142, in serve_available_cli_json
+    self.wfile.write(html.encode())
+  File "/accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/python3_ntoarmv7-qnx-static/lib/python3.11/socketserver.py", line 834, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/python3_ntoarmv7-qnx-static/lib/python3.11/socketserver.py", line 317, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/python3_ntoarmv7-qnx-static/lib/python3.11/socketserver.py", line 348, in process_request
+    self.finish_request(request, client_address)
+  File "/accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/python3_ntoarmv7-qnx-static/lib/python3.11/socketserver.py", line 361, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/python3_ntoarmv7-qnx-static/lib/python3.11/socketserver.py", line 755, in __init__
+    self.handle()
+  File "/accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/python3_ntoarmv7-qnx-static/lib/python3.11/http/server.py", line 436, in handle
+    self.handle_one_request()
+  File "/accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/python3_ntoarmv7-qnx-static/lib/python3.11/http/server.py", line 424, in handle_one_request
+    method()
+  File "/accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/apps/taskapp/taskapp.py", line 119, in do_GET
+    self.serve_available_cli_json()
+  File "/accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/apps/taskapp/taskapp.py", line 145, in serve_available_cli_json
+    self.send_error(500, 'Error loading CLI apps')
+  File "/accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/python3_ntoarmv7-qnx-static/lib/python3.11/http/server.py", line 488, in send_error
+    self.end_headers()
+  File "/accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/python3_ntoarmv7-qnx-static/lib/python3.11/http/server.py", line 538, in end_headers
+    self.flush_headers()
+  File "/accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/python3_ntoarmv7-qnx-static/lib/python3.11/http/server.py", line 542, in flush_headers
+    self.wfile.write(b"".join(self._headers_buffer))
+  File "/accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/python3_ntoarmv7-qnx-static/lib/python3.11/socketserver.py", line 834, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+127.0.0.1 - - [14/Sep/2025 20:55:08] "GET /auto-config HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 20:55:16] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 20:55:16] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 21:21:32] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 21:21:34] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 21:21:34] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 21:21:37] "GET /auto-config HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 21:25:20] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 21:25:21] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 21:25:21] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 21:34:02] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 21:34:03] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 21:34:03] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 21:35:18] "GET /api/app-details?app_name=Reminders&app_type=web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 21:35:19] "GET /action?action=install&app_name=Reminders.zip&app_type=web HTTP/1.1" 303 -
+127.0.0.1 - - [14/Sep/2025 21:35:19] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 21:35:20] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 21:35:20] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 21:36:23] "GET /auto-config HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 21:38:18] "GET /api/app-details?app_name=Stocks&app_type=web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 21:39:15] "GET /auto-config HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 21:39:42] "GET /auto-config HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:02:20] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:02:22] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:02:22] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:04:48] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:04:49] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:04:49] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:06:17] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:06:18] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:06:18] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:07:32] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:07:33] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:07:34] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:09:34] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:09:35] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:09:35] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:11:18] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:11:19] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:11:19] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:13:06] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:13:07] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:13:08] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:13:17] "GET /auto-config HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:14:06] "GET /auto-config HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:14:13] "GET /auto-config HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:14:19] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:14:20] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:14:21] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:14:24] "GET /auto-config HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:16:54] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:16:55] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:16:55] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:17:00] "GET /auto-config HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:17:36] "GET /android HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:18:47] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:18:49] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:18:49] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:18:51] "GET /auto-config HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:19:00] "GET /auto-config HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:19:35] "GET /auto-config HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:22:06] "GET /auto-config HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:22:14] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:22:16] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:22:16] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:22:19] "GET /auto-config HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:22:26] "GET /auto-config HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:22:39] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:22:41] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:22:41] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:23:57] "GET /auto-config HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:24:17] "GET /auto-config HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:26:01] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:26:03] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:26:03] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:26:08] "GET /auto-config HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:26:13] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:26:15] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:26:15] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:27:07] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:27:08] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:27:08] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:27:25] "GET /auto-config HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:30:22] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:30:23] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:30:23] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:30:25] "GET /auto-config HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:30:36] "GET /auto-config HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:32:19] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:32:20] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:32:21] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:32:22] "GET /auto-config HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:32:59] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:33:01] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:33:01] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:33:08] "GET /auto-config HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:34:06] "GET /auto-config HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:34:40] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:34:41] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:34:41] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:34:43] "GET /auto-config HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:34:58] "GET /auto-config HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:35:13] "GET /auto-config HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:36:11] "GET /auto-config HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:37:59] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:38:01] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:38:01] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:38:02] "GET /auto-config HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:38:14] "GET /android HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:40:45] "GET /auto-config HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:41:09] "GET /auto-config HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:41:15] "GET /auto-config HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:41:19] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:41:20] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:41:20] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:42:13] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:42:14] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:42:15] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:42:15] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:42:19] "GET /android HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:43:19] "GET /about HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:45:21] "GET /android HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:47:10] "GET /android HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:48:04] "GET /android HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:50:28] "GET /android HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:52:51] "GET /android HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:54:29] "GET /android HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:57:26] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:57:28] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:57:28] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:58:14] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:58:15] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:58:15] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:58:17] "GET /auto-config HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:58:22] "GET /android HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:59:43] "GET /android HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:59:48] "GET /auto-config HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:59:53] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:59:55] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 22:59:55] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:01:46] "GET /api/app-details?app_name=Term49-Settings&app_type=web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:01:47] "GET /action?action=install&app_name=Term49-Settings.zip&app_type=web HTTP/1.1" 303 -
+127.0.0.1 - - [14/Sep/2025 23:01:47] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:01:49] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:01:49] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:02:44] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:02:46] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:02:46] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:02:52] "GET /auto-config HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:04:26] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:04:28] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:04:28] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:04:31] "GET /android HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:04:35] "GET /auto-config HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:05:09] "GET /android HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:07:40] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:07:42] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:07:42] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:08:01] "GET /android HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:08:02] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:08:13] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:08:15] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:08:15] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:08:21] "GET /api/app-details?app_name=Term49-Settings&app_type=web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:08:23] "GET /action?action=install&app_name=Term49-Settings.zip&app_type=web HTTP/1.1" 303 -
+127.0.0.1 - - [14/Sep/2025 23:08:23] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:08:24] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:08:24] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:08:33] "GET /action?action=start&app_name=Term49-Settings&app_type=web HTTP/1.1" 303 -
+127.0.0.1 - - [14/Sep/2025 23:08:33] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:08:34] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:08:34] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:18:52] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:18:53] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:18:54] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:18:54] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:18:56] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:18:58] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:18:58] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:19:14] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:19:16] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:19:17] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:23:24] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:23:25] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:23:27] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:23:27] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:26:29] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:26:31] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:26:31] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:27:27] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:27:29] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:27:29] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:27:41] "GET /action?action=stop&pid=570085479 HTTP/1.1" 303 -
+127.0.0.1 - - [14/Sep/2025 23:27:41] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:27:51] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:27:53] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:27:53] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:28:23] "GET /action?action=start&app_name=Term49-Settings&app_type=web HTTP/1.1" 303 -
+127.0.0.1 - - [14/Sep/2025 23:28:23] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:28:26] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:28:28] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:28:28] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:31:36] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:31:39] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:31:41] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:31:42] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:32:23] "GET /auto-config HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:34:35] "GET /auto-config HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:34:39] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:34:42] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:34:42] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:36:33] "GET /api/app-details?app_name=BB10Chat&app_type=web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:38:17] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:38:21] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:38:21] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:39:52] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:39:56] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:39:56] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:42:47] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:42:51] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:42:52] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:43:51] "GET /auto-config HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:45:09] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:45:10] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:45:10] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:49:00] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:49:00] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:49:01] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:49:15] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:49:16] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:49:17] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:49:17] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:49:35] "GET /action?action=stop&pid=570966119 HTTP/1.1" 303 -
+127.0.0.1 - - [14/Sep/2025 23:49:35] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:49:53] "GET /auto-config HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:49:54] "GET /api/directory-info HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:50:10] "GET /api/directory-info HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:50:14] "GET /api/directory-info HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:50:45] "GET /about HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:55:09] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:55:09] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:55:10] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:55:31] "GET /auto-config HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:58:25] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:58:27] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:58:27] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:59:36] "GET /auto-config HTTP/1.1" 200 -
+127.0.0.1 - - [14/Sep/2025 23:59:50] "GET /about HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2025 00:13:52] "GET /action?action=start&app_name=RocketChat&app_type=web HTTP/1.1" 303 -
+127.0.0.1 - - [15/Sep/2025 00:13:53] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2025 00:13:55] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2025 00:13:56] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2025 00:13:56] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2025 00:28:04] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2025 00:28:05] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2025 00:28:05] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2025 00:28:06] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2025 07:54:42] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2025 07:54:43] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2025 07:54:44] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2025 07:54:45] "GET /api/available-cli HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2025 09:26:32] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2025 09:26:33] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [15/Sep/2025 09:26:33] "GET /api/available-cli HTTP/1.1" 200 -
+Note: /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/apps is not in your PATH.
+If you want to run web apps from command line, consider adding:
+export PATH="/accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/apps:$PATH"
+Starting optimized Task Manager...
+Performance improvements:
+- Caching network requests (5min TTL)
+- Timeout handling (10s timeout)
+- Optimized pidin usage
+- Lazy loading for available apps
+Traceback (most recent call last):
+  File "/accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/apps/taskapp/taskapp.py", line 1635, in <module>
+    with socketserver.TCPServer(("", PORT), TaskManagerHandler) as httpd:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/python3_ntoarmv7-qnx-static/lib/python3.11/socketserver.py", line 456, in __init__
+    self.server_bind()
+  File "/accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/python3_ntoarmv7-qnx-static/lib/python3.11/socketserver.py", line 472, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 248] Address already in use
+Note: /accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/apps is not in your PATH.
+If you want to run web apps from command line, consider adding:
+export PATH="/accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/apps:$PATH"
+Starting optimized Task Manager...
+Performance improvements:
+- Caching network requests (5min TTL)
+- Timeout handling (10s timeout)
+- Optimized pidin usage
+- Lazy loading for available apps
+Traceback (most recent call last):
+  File "/accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/apps/taskapp/taskapp.py", line 1635, in <module>
+    with socketserver.TCPServer(("", PORT), TaskManagerHandler) as httpd:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/python3_ntoarmv7-qnx-static/lib/python3.11/socketserver.py", line 456, in __init__
+    self.server_bind()
+  File "/accounts/1000/appdata/com.update.Term49.gYABgHeOVx7TI8ajV86LufpS8jM/data/python3_ntoarmv7-qnx-static/lib/python3.11/socketserver.py", line 472, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 248] Address already in use
+127.0.0.1 - - [18/Sep/2025 06:20:30] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2025 06:20:31] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2025 06:20:31] "GET /api/available-web HTTP/1.1" 200 -
+127.0.0.1 - - [18/Sep/2025 06:20:32] "GET /api/available-cli HTTP/1.1" 200 -

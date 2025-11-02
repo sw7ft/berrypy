@@ -1,0 +1,1640 @@
+<html>
+<head>
+    <meta name="viewport" content="initial-scale=1, user-scalable=no">
+    <title>Task Manager</title>
+    <style>
+        body {
+            background-color: #1e1e1e;
+            color: white;
+            font-family: "Slate Pro", Slate, "Myriad Pro", Helvetica;
+            font-size: 12pt;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #2b2b2b;
+            border-bottom: 2px solid #00769e !important;
+            padding: 10px;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        h1 {
+            margin: 0;
+            font-size: 18pt;
+            text-align: center;
+            flex-grow: 1;
+        }
+        
+        /* Hamburger Menu Styles */
+        .hamburger {
+            cursor: pointer;
+            width: 30px;
+            height: 25px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .hamburger div {
+            width: 100%;
+            height: 4px;
+            background-color: white;
+            border-radius: 2px;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            right: 0; /* Align dropdown to the right */
+            top: 35px; /* Position below the hamburger */
+            background-color: #2b2b2b;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1001; /* Ensure it appears above other elements */
+            border: 1px solid #00769e;
+            border-radius: 4px;
+        }
+        .dropdown-content a {
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-content a:hover {
+            background-color: #00769e;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        table {
+            width: 100%;
+            margin: 20px 0;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid #00769e;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #2b2b2b;
+        }
+        a {
+            color: #00769e;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .scrollable-command {
+            max-width: 100px;
+            white-space: nowrap;
+            overflow-x: auto;
+        }
+        .apps-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+        }
+        .app-item {
+            background-color: #2b2b2b;
+            border: 1px solid #00769e;
+            border-radius: 8px;
+            width: 120px;
+            margin: 6px;
+            padding: 6px;
+            text-align: center;
+            transition: transform 0.2s;
+        }
+        .app-item:hover {
+            transform: scale(1.05);
+        }
+        .app-name {
+            font-size: 14pt;
+            margin-bottom: 10px;
+            word-wrap: break-word;
+        }
+        .install-button {
+            display: inline-block;
+            padding: 5px 10px;
+            background-color: #00769e;
+            color: white;
+            border-radius: 4px;
+            text-decoration: none;
+            font-size: 12pt;
+        }
+        .install-button:hover {
+            background-color: #005f7a;
+        }
+        
+        /* Modal Styles */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 2000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.7);
+        }
+        
+        .modal-content {
+            background-color: #2b2b2b;
+            margin: 5% auto;
+            padding: 20px;
+            border: 2px solid #00769e;
+            border-radius: 8px;
+            width: 80%;
+            max-width: 500px;
+            max-height: 80vh;
+            overflow-y: auto;
+        }
+        
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            border-bottom: 1px solid #00769e;
+            padding-bottom: 10px;
+        }
+        
+        .modal-title {
+            font-size: 18pt;
+            color: white;
+            margin: 0;
+        }
+        
+        .close {
+            color: #00769e;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+            line-height: 1;
+        }
+        
+        .close:hover {
+            color: #005f7a;
+        }
+        
+        .modal-body {
+            color: white;
+            line-height: 1.5;
+        }
+        
+        .modal-footer {
+            margin-top: 20px;
+            text-align: center;
+        }
+        
+        .modal-install-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #00769e;
+            color: white;
+            border-radius: 4px;
+            text-decoration: none;
+            font-size: 14pt;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .modal-install-button:hover {
+            background-color: #005f7a;
+        }
+        
+        .loading {
+            text-align: center;
+            color: #00769e;
+            font-style: italic;
+        }
+        
+        .app-click-hint {
+            font-size: 10pt;
+            color: #00769e;
+            margin-top: 5px;
+            font-style: italic;
+        }
+        
+        .app-item:hover .app-click-hint {
+            color: #005f7a;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>BB10 App Manager</h1>
+        <!-- Hamburger Menu -->
+        <div class="dropdown">
+            <div class="hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="dropdown-content">
+                <!-- Updated links -->
+                <a href="/news">News</a>
+                <a href="/auto-config">Auto Start Apps</a>
+                <a href="/android">Android Apps</a>
+                <a href="/about">About Sw7ft</a>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        /* Modern App Grid Layout with Smoother Animation */
+        .app-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 25px;
+            padding: 25px;
+            justify-content: flex-start;
+            animation: fadeIn 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            min-height: 200px;
+        }
+
+        @keyframes fadeIn {
+            0% { 
+                opacity: 0; 
+                transform: translateY(20px); 
+            }
+            100% { 
+                opacity: 1; 
+                transform: translateY(0); 
+            }
+        }
+
+        .app-grid {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .app-card {
+            background-color: #2b2b2b;
+            border: 1px solid rgba(0, 118, 158, 0.3);
+            border-radius: 16px;
+            width: calc(100% - 20px);  /* Full width on mobile */
+            max-width: 400px;          /* Maximum card width */
+            margin: 10px auto;         /* Center cards */
+            overflow: hidden;
+            position: relative;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Tablet: 2 columns */
+        @media (min-width: 768px) {
+            .app-card {
+                width: calc(50% - 20px);
+                margin: 10px;
+            }
+        }
+
+        /* Desktop: 3 columns */
+        @media (min-width: 1200px) {
+            .app-card {
+                width: calc(33.33% - 20px);
+                margin: 10px;
+            }
+        }
+
+        .app-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+            border-color: #00769e;
+        }
+
+        .app-card-header {
+            display: flex;
+            align-items: center;
+            padding: 16px;
+            border-bottom: 1px solid rgba(0, 118, 158, 0.2);
+            background: linear-gradient(to right, rgba(0, 118, 158, 0.15), rgba(0, 118, 158, 0.05));
+        }
+
+        .app-icon {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, #00769e, #005f7a);
+            border-radius: 18px;
+            margin-right: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 30px;
+            color: white;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .app-card:hover .app-icon {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .app-info {
+            flex-grow: 1;
+        }
+
+        .app-name {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 8px;
+            color: white;
+        }
+
+        .app-type {
+            font-size: 14px;
+            color: #aaa;
+            display: flex;
+            align-items: center;
+        }
+
+        .app-type:before {
+            content: '';
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            background-color: #00769e;
+            border-radius: 50%;
+            margin-right: 8px;
+            box-shadow: 0 0 8px rgba(0, 118, 158, 0.4);
+        }
+
+        .app-status {
+            font-size: 13px;
+            padding: 5px 12px;
+            border-radius: 20px;
+            background: linear-gradient(135deg, #00769e, #005f7a);
+            color: white;
+            display: inline-block;
+            margin-top: 8px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        .app-actions {
+            padding: 16px;
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            background-color: rgba(0, 0, 0, 0.15);
+            justify-content: flex-start;
+        }
+
+        .app-button {
+            flex: 0 1 auto;
+            min-width: 100px;
+            max-width: 160px;
+            padding: 10px 16px;
+            margin: 0;
+            border-radius: 8px;
+            border: none;
+            cursor: pointer;
+            font-size: 14px;
+            color: white;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+
+        /* Loading animation for buttons */
+        @keyframes loadingPulse {
+            0% { opacity: 1; }
+            50% { opacity: 0.6; }
+            100% { opacity: 1; }
+        }
+
+        @keyframes loadingDots {
+            0% { content: '.'; }
+            33% { content: '..'; }
+            66% { content: '...'; }
+            100% { content: '.'; }
+        }
+
+        .app-button.loading {
+            animation: loadingPulse 1.5s infinite;
+            cursor: default;
+            background: linear-gradient(135deg, #005f7a, #004c61);
+        }
+
+        .app-button.loading:after {
+            content: '.';
+            animation: loadingDots 1.5s infinite;
+            position: absolute;
+            right: 8px;
+        }
+
+        .app-button.loading:hover {
+            transform: none;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Specific styles for running apps section */
+                /* Running Apps Slim List View */
+        .running-apps-list {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 8px;
+            font-size: 13px;
+        }
+
+        #running-section .app-card {
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid rgba(0, 118, 158, 0.1);
+            padding: 6px 8px;
+            transition: background-color 0.2s ease;
+            max-width: 100%;
+            min-height: 32px;
+        }
+
+        #running-section .app-card:hover {
+            background-color: rgba(0, 118, 158, 0.05);
+        }
+
+        #running-section .app-card:last-child {
+            border-bottom: none;
+        }
+
+        #running-section .app-icon {
+            width: 16px;
+            height: 16px;
+            min-width: 16px;
+            background: linear-gradient(135deg, #00769e, #005f7a);
+            border-radius: 2px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 10px;
+            color: white;
+            margin-right: 8px;
+        }
+
+        #running-section .app-info {
+            flex: 1;
+            min-width: 0;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        #running-section .app-name {
+            font-size: 13px;
+            color: #fff;
+            margin: 0;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            min-width: 80px;
+            max-width: 150px;
+        }
+
+        #running-section .app-address {
+            font-size: 10px;
+            color: #00769e;
+            margin: 0;
+            font-family: monospace;
+            font-weight: bold;
+            padding: 1px 4px;
+            background: rgba(0, 118, 158, 0.1);
+            border-radius: 2px;
+            white-space: nowrap;
+            min-width: 90px;
+        }
+
+
+
+
+
+        #running-section .app-actions {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+            margin-left: auto;
+            font-size: 10px;
+        }
+
+        #running-section .launch-btn {
+            background: linear-gradient(135deg, #00769e, #005f7a);
+            color: white;
+            padding: 4px 8px;
+            border-radius: 3px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 9px;
+            transition: all 0.2s ease;
+            border: none;
+            cursor: pointer;
+        }
+
+        #running-section .launch-btn:hover {
+            background: linear-gradient(135deg, #005f7a, #004c61);
+            transform: translateY(-1px);
+        }
+
+        #running-section .stop-btn {
+            background: linear-gradient(135deg, #9e0000, #7a0000);
+            color: white;
+            padding: 4px 8px;
+            border-radius: 3px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 9px;
+            transition: all 0.2s ease;
+            border: none;
+            cursor: pointer;
+        }
+
+        #running-section .stop-btn:hover {
+            background: linear-gradient(135deg, #7a0000, #610000);
+            transform: translateY(-1px);
+        }
+
+        #running-section .app-actions a {
+            color: inherit;
+            text-decoration: none;
+            transition: all 0.2s ease;
+            position: relative;
+        }
+
+        #running-section .app-actions a:after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 1px;
+            bottom: -1px;
+            left: 0;
+            background-color: currentColor;
+            transform: scaleX(0);
+            transition: transform 0.2s ease;
+        }
+
+        #running-section .app-actions a:hover {
+            color: #00769e;
+        }
+
+        #running-section .app-actions a:hover:after {
+            transform: scaleX(1);
+        }
+
+        #running-section .app-actions a.stop {
+            color: #666;
+        }
+
+        #running-section .app-actions a.stop:hover {
+            color: #ff4444;
+        }
+
+        #running-section .app-actions span.separator {
+            color: #444;
+            font-size: 10px;
+            user-select: none;
+        }
+
+        /* Empty State - more subtle for list view */
+        #running-section .empty-state {
+            padding: 20px;
+            color: #666;
+            text-align: center;
+            border: 1px dashed rgba(0, 118, 158, 0.2);
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+
+        #running-section .empty-icon {
+            font-size: 18px;
+            margin-bottom: 8px;
+            color: #00769e;
+        }
+
+        #running-section .empty-text {
+            font-size: 14px;
+            margin-bottom: 4px;
+        }
+
+        #running-section .empty-subtext {
+            font-size: 12px;
+        }
+
+        /* Empty State */
+        .empty-state {
+            text-align: center;
+            padding: 40px 20px;
+            color: #888;
+        }
+
+        .empty-icon {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #00769e;
+        }
+
+        .empty-text {
+            font-size: 16px;
+            margin-bottom: 8px;
+            color: #aaa;
+        }
+
+        .empty-subtext {
+            font-size: 14px;
+            color: #666;
+        }
+
+        /* BlackBerry Passport Specific */
+        @media screen and (width: 1440px), 
+               screen and (max-width: 720px) {
+            .running-apps-list {
+                padding: 8px;
+            }
+
+            #running-section .app-card {
+                margin: 6px 0;
+                padding: 6px;
+            }
+
+            #running-section .app-actions {
+                gap: 6px;
+                padding-left: 10px;
+            }
+
+            #running-section .app-button {
+                min-width: 20px;
+                padding: 5px 10px;
+            }
+
+            /* Installed Apps - 2 column layout */
+            #installed-section .app-grid {
+                gap: 12px;
+                padding: 12px;
+            }
+
+            #installed-section .app-card {
+                width: calc(50% - 6px);
+                margin: 0;
+                max-width: none;
+            }
+
+            /* Available Apps - 3 column layout */
+            #available-section .app-grid {
+                gap: 12px;
+                padding: 12px;
+            }
+
+            #available-section .app-card {
+                width: calc(33.33% - 8px);
+                margin: 0;
+                max-width: none;
+            }
+
+            #available-section .app-card-header {
+                padding: 12px;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            #available-section .app-icon {
+                width: 64px;
+                height: 64px;
+                margin: 0 auto;
+                font-size: 32px;
+                border-radius: 20px;
+            }
+
+            #available-section .app-info {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            #available-section .app-name {
+                font-size: 16px;
+                margin-bottom: 8px;
+            }
+
+            #available-section .app-type {
+                font-size: 12px;
+                justify-content: center;
+            }
+
+            #available-section .app-actions {
+                padding: 12px;
+                gap: 8px;
+                justify-content: center;
+            }
+
+            /* Common styles for both sections */
+            #installed-section .app-card-header,
+            #available-section .app-card-header {
+                padding: 12px;
+            }
+
+            #installed-section .app-icon {
+                width: 48px;
+                height: 48px;
+                margin-right: 12px;
+                font-size: 24px;
+            }
+
+            #installed-section .app-name {
+                font-size: 16px;
+            }
+
+            #installed-section .app-type {
+                font-size: 12px;
+            }
+
+            #installed-section .app-actions {
+                padding: 12px;
+                gap: 8px;
+            }
+        }
+
+        /* ES5 compatible loading styles */
+        .app-card.loading {
+            border-color: #00769e;
+            background-color: rgba(0, 118, 158, 0.1);
+        }
+
+        .app-card.loading .app-status {
+            background: linear-gradient(135deg, #00769e, #005f7a);
+        }
+
+        /* Loading dots animation (ES5 compatible) */
+        .loading-dots:after {
+            content: '.';
+            animation: none;  /* We'll handle this with JS */
+        }
+
+        /* Smooth transitions */
+        .app-card {
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease;
+            -ms-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+        }
+
+        .app-card.fade-out {
+            opacity: 0;
+            -webkit-transform: translateY(10px);
+            -moz-transform: translateY(10px);
+            -ms-transform: translateY(10px);
+            transform: translateY(10px);
+        }
+
+        .app-card.fade-in {
+            opacity: 1;
+            -webkit-transform: translateY(0);
+            -moz-transform: translateY(0);
+            -ms-transform: translateY(0);
+            transform: translateY(0);
+        }
+
+        .app-button:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(to bottom, rgba(255,255,255,0.1), transparent);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .app-button:hover {
+            transform: translateY(-1px);
+            opacity: 0.8;
+        }
+
+        .app-button:hover:before {
+            opacity: 1;
+        }
+
+        .app-button:active {
+            transform: translateY(1px);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .app-button.start-button {
+            background: linear-gradient(135deg, #00aa00, #008800);
+        }
+
+        .app-button.start-button:hover {
+            background: linear-gradient(135deg, #008800, #006600);
+        }
+
+        .app-button.delete {
+            background: linear-gradient(135deg, #9e0000, #7a0000);
+        }
+
+        .app-button.delete:hover {
+            background: linear-gradient(135deg, #7a0000, #610000);
+        }
+
+        .button-text {
+            position: relative;
+            z-index: 1;
+            padding: 0 4px;
+        }
+
+        /* Ensure buttons stack nicely on very small screens */
+        @media (max-width: 320px) {
+            .app-button {
+                max-width: 100%;
+            }
+        }
+
+        .section-header {
+            padding: 25px 20px 15px 20px;
+            margin: 0;
+            background-color: rgba(43, 43, 43, 0.95);
+            position: sticky;
+            top: 48px;  /* Height of tabs */
+            z-index: 90;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-bottom: 2px solid rgba(0, 118, 158, 0.3);
+            font-size: 24px;
+            color: white;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Enhanced Responsive Design */
+        @media (min-width: 768px) {
+            .app-card {
+                width: calc(33.33% - 20px);  /* 3 columns on tablet */
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .app-card {
+                width: calc(25% - 20px);  /* 4 columns on desktop */
+            }
+        }
+
+        /* Optimized Section Tabs */
+        .section-tabs {
+            display: flex;
+            padding: 0;
+            background-color: #2b2b2b;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+            border-bottom: 2px solid #00769e;
+        }
+
+        .section-tab {
+            padding: 15px 25px;
+            color: #aaa;
+            cursor: pointer;
+            position: relative;
+            font-size: 15px;
+            text-align: center;
+            flex: 1;
+            -webkit-transition: color 0.2s ease;
+            transition: color 0.2s ease;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        .section-tab:hover {
+            color: white;
+            background-color: rgba(0, 118, 158, 0.1);
+        }
+
+        .section-tab:after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background-color: #00769e;
+            -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+            -webkit-transition: -webkit-transform 0.2s ease;
+            transition: transform 0.2s ease;
+        }
+
+        .section-tab.active {
+            color: white;
+            background-color: rgba(0, 118, 158, 0.05);
+        }
+
+        .section-tab.active:after {
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+        }
+
+        /* Category Tabs */
+        .category-tabs {
+            display: flex;
+            padding: 10px 20px;
+            gap: 10px;
+            background-color: rgba(43, 43, 43, 0.95);
+            border-bottom: 1px solid rgba(0, 118, 158, 0.2);
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none;
+            position: sticky;
+            top: 53px;
+            z-index: 90;
+        }
+
+        .category-tabs::-webkit-scrollbar {
+            display: none;
+        }
+
+        .category-tab {
+            padding: 8px 16px;
+            color: #aaa;
+            cursor: pointer;
+            background-color: rgba(0, 0, 0, 0.2);
+            border-radius: 20px;
+            font-size: 14px;
+            -webkit-transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            white-space: nowrap;
+        }
+
+        .category-tab:hover {
+            color: white;
+            background-color: rgba(0, 118, 158, 0.2);
+        }
+
+        .category-tab.active {
+            color: white;
+            background: linear-gradient(135deg, #00769e, #005f7a);
+            -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+        }
+
+        /* Section Content Transitions */
+        .section-content {
+            display: none;
+            opacity: 0;
+            -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+            -webkit-transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .section-content.active {
+            display: block;
+            opacity: 1;
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+        }
+
+        /* No Apps Message */
+        .no-apps-message {
+            text-align: center;
+            padding: 40px 20px;
+            color: #888;
+            font-style: italic;
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 12px;
+            margin: 20px;
+            -webkit-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+        }
+
+        /* Empty State Styling */
+        .no-apps {
+            text-align: center;
+            padding: 40px 20px;
+            color: #888;
+            font-style: italic;
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 12px;
+            margin: 20px;
+        }
+
+        .error-message {
+            text-align: center;
+            padding: 20px;
+            color: #ff4444;
+            background: rgba(255, 0, 0, 0.1);
+            border-radius: 12px;
+            margin: 20px;
+            border: 1px solid rgba(255, 0, 0, 0.2);
+        }
+
+        /* Loading States */
+        .loading-placeholder {
+            background: linear-gradient(90deg, #2b2b2b 25%, #333 50%, #2b2b2b 75%);
+            background-size: 200% 100%;
+            animation: loading 1.5s infinite;
+            border-radius: 8px;
+            height: 24px;
+            margin: 10px 0;
+        }
+
+        @keyframes loading {
+            0% { background-position: 200% 0; }
+            100% { background-position: -200% 0; }
+        }
+    </style>
+
+    <!-- Section Tabs -->
+    <div class="section-tabs">
+        <div class="section-tab active" onclick="showSection('running')">Running Apps</div>
+        <div class="section-tab" onclick="showSection('installed')">Installed Apps</div>
+        <div class="section-tab" onclick="showSection('available')">Available Apps</div>
+    </div>
+
+    <!-- Running Apps Section -->
+    <div id="running-section" class="section-content active">
+        <div class="running-apps-list" id="running-apps-grid">
+            <!-- running_processes -->
+        </div>
+        <div class="no-running-apps" style="display: none;">
+            <div class="empty-state">
+                <div class="empty-icon"></div>
+                <div class="empty-text">No apps running</div>
+                <div class="empty-subtext">Start an app from the Installed Apps section</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Installed Apps Section -->
+    <div id="installed-section" class="section-content">
+        <div class="category-tabs">
+            <div class="category-tab active" onclick="filterApps('installed', 'all')">All Apps</div>
+            <div class="category-tab" onclick="filterApps('installed', 'web')">Web Apps</div>
+            <div class="category-tab" onclick="filterApps('installed', 'cli')">CLI Apps</div>
+        </div>
+        <div class="app-grid" id="installed-apps-grid">
+            <!-- installed_apps -->
+        </div>
+        <div class="no-apps-message" style="display: none;">
+            No apps found in this category
+        </div>
+    </div>
+
+    <!-- Available Apps Section -->
+    <div id="available-section" class="section-content">
+        <div class="category-tabs">
+            <div class="category-tab active" onclick="filterApps('available', 'all')">All Apps</div>
+            <div class="category-tab" onclick="filterApps('available', 'web')">Web Apps</div>
+            <div class="category-tab" onclick="filterApps('available', 'cli')">CLI Apps</div>
+        </div>
+        
+        <div class="app-grid" id="available-apps-grid">
+            <div id="available-cli-container">
+                <!-- available_cli_apps -->
+            </div>
+            <div id="available-web-container">
+                <!-- available_web_apps -->
+            </div>
+        </div>
+        <div class="no-apps-message" style="display: none;">
+            No apps found in this category
+        </div>
+    </div>
+
+    <script>
+        // ES5 compatible utilities
+        var utils = {
+            addClass: function(element, className) {
+                if (element.className.indexOf(className) === -1) {
+                    element.className += ' ' + className;
+                }
+            },
+            removeClass: function(element, className) {
+                element.className = element.className.replace(new RegExp('\\b' + className + '\\b', 'g'), '');
+            },
+            hasClass: function(element, className) {
+                return element.className.indexOf(className) !== -1;
+            }
+        };
+
+        // Optimized section switching for better performance
+        function showSection(sectionName) {
+            // Cache DOM queries
+            var tabs = document.getElementsByClassName('section-tab');
+            var sections = document.getElementsByClassName('section-content');
+            var targetSection = document.getElementById(sectionName + '-section');
+            
+            // Update tabs
+            for (var i = 0; i < tabs.length; i++) {
+                if (tabs[i].textContent.toLowerCase().indexOf(sectionName) !== -1) {
+                    utils.addClass(tabs[i], 'active');
+                } else {
+                    utils.removeClass(tabs[i], 'active');
+                }
+            }
+
+            // Update sections with minimal reflows
+            for (var j = 0; j < sections.length; j++) {
+                var section = sections[j];
+                if (section === targetSection) {
+                    // Show new section
+                    section.style.display = 'block';
+                    // Force a single reflow
+                    section.offsetHeight;
+                    utils.addClass(section, 'active');
+                } else {
+                    // Hide other sections
+                    utils.removeClass(section, 'active');
+                    // Use setTimeout to prevent blocking
+                    (function(section) {
+                        setTimeout(function() {
+                            if (!utils.hasClass(section, 'active')) {
+                                section.style.display = 'none';
+                            }
+                        }, 300);
+                    })(section);
+                }
+            }
+
+            // Update URL hash without scrolling
+            var scrollPos = window.pageYOffset;
+            window.location.hash = sectionName;
+            window.scrollTo(0, scrollPos);
+        }
+
+        // Enhanced app card creation with better visual feedback
+        function createAppCard(appName, appType, isRunning, pid, port) {
+            var card = document.createElement('div');
+            card.className = 'app-card';
+            
+            // Card Header
+            var header = document.createElement('div');
+            header.className = 'app-card-header';
+            
+            // App Icon with first letter
+            var icon = document.createElement('div');
+            icon.className = 'app-icon';
+            icon.textContent = appName.charAt(0).toUpperCase();
+            
+            // App Info Container
+            var info = document.createElement('div');
+            info.className = 'app-info';
+            
+            // App Name
+            var name = document.createElement('div');
+            name.className = 'app-name';
+            name.textContent = appName;
+            
+            // App Address (for running web apps with ports)
+            var address = document.createElement('div');
+            address.className = 'app-address';
+            if (isRunning && port) {
+                address.textContent = '127.0.0.1:' + port;
+            } else {
+                address.textContent = '—';
+                address.style.opacity = '0.3';
+            }
+            info.appendChild(address);
+            
+            // Assemble header
+            info.insertBefore(name, info.firstChild);
+            header.appendChild(icon);
+            header.appendChild(info);
+            card.appendChild(header);
+            
+            // Action Buttons
+            var actions = document.createElement('div');
+            actions.className = 'app-actions';
+            
+            if (isRunning) {
+                // Launch UI link for web apps
+                if (port) {
+                    var launchLink = document.createElement('a');
+                    launchLink.href = 'http://0.0.0.0:' + port;
+                    launchLink.textContent = 'LAUNCH';
+                    launchLink.className = 'launch-btn';
+                    launchLink.target = '_blank';
+                    actions.appendChild(launchLink);
+                }
+                
+                // Stop link
+                var stopLink = document.createElement('a');
+                stopLink.href = '#';
+                stopLink.className = 'stop-btn';
+                stopLink.textContent = 'STOP';
+                stopLink.onclick = function(e) {
+                    e.preventDefault();
+                    if (confirm('Stop ' + appName + '?')) {
+                        var xhr = new XMLHttpRequest();
+                        xhr.open('GET', '/stop?pid=' + pid, true);
+                        xhr.send();
+                        
+                        // Remove the card after successful stop
+                        xhr.onload = function() {
+                            if (xhr.status === 200) {
+                                utils.addClass(card, 'fade-out');
+                                setTimeout(function() {
+                                    if (card.parentNode) {
+                                        card.parentNode.removeChild(card);
+                                        // Check if we need to show the empty state
+                                        var remainingCards = document.querySelectorAll('#running-apps-grid .app-card');
+                                        if (remainingCards.length === 0) {
+                                            var emptyState = document.querySelector('.no-running-apps');
+                                            if (emptyState) {
+                                                emptyState.style.display = 'block';
+                                            }
+                                        }
+                                    }
+                                }, 300);
+                            }
+                        };
+                    }
+                };
+                actions.appendChild(stopLink);
+            } else {
+                // Start Button for web apps
+                if (appType === 'Web App') {
+                    var startBtn = document.createElement('a');
+                    startBtn.href = '/action?action=start&app_name=' + encodeURIComponent(appName) + '&app_type=web';
+                    startBtn.className = 'app-button start-button';
+                    startBtn.innerHTML = '<span class="button-text">Start</span>';
+                    startBtn.onclick = function(e) {
+                        e.preventDefault();
+                        var self = this;
+                        var card = findParentByClass(self, 'app-card');
+                        
+                        // Add loading state to button
+                        utils.addClass(self, 'loading');
+                        self.innerHTML = '<span class="button-text loading-dots">Starting</span>';
+                        
+                        // Create a loading card
+                        var loadingCard = document.createElement('div');
+                        loadingCard.className = 'app-card loading';
+                        loadingCard.style.opacity = '0';
+                        
+                        // ES5 compatible loading card content
+                        var loadingContent = 
+                            '<div class="app-card-header">' +
+                                '<div class="app-icon">' + appName.charAt(0).toUpperCase() + '</div>' +
+                                '<div class="app-info">' +
+                                    '<div class="app-name">' + appName + '</div>' +
+                                '</div>' +
+                            '</div>' +
+                            '<div class="app-actions">' +
+                                '<div class="app-button loading">' +
+                                    '<span class="button-text loading-dots">Initializing</span>' +
+                                '</div>' +
+                            '</div>';
+                        
+                        loadingCard.innerHTML = loadingContent;
+                        
+                        // Handle loading dots animation with ES5
+                        var dots = '';
+                        var dotsInterval = setInterval(function() {
+                            dots = dots.length >= 3 ? '' : dots + '.';
+                            var elements = loadingCard.getElementsByClassName('loading-dots');
+                            for (var i = 0; i < elements.length; i++) {
+                                var el = elements[i];
+                                var baseText = el.getAttribute('data-text') || el.textContent.replace(/\.+$/, '');
+                                if (!el.getAttribute('data-text')) {
+                                    el.setAttribute('data-text', baseText);
+                                }
+                                el.textContent = baseText + dots;
+                            }
+                        }, 500);
+                        
+                        // Insert and animate the loading card
+                        var runningGrid = document.getElementById('running-apps-grid');
+                        if (runningGrid) {
+                            // Insert at top
+                            if (runningGrid.firstChild) {
+                                runningGrid.insertBefore(loadingCard, runningGrid.firstChild);
+                            } else {
+                                runningGrid.appendChild(loadingCard);
+                            }
+                            
+                            // Fade in with setTimeout for better ES5 compatibility
+                            setTimeout(function() {
+                                utils.addClass(loadingCard, 'fade-in');
+                            }, 50);
+                        }
+                        
+                        // Fade out original card
+                        if (card) {
+                            utils.addClass(card, 'fade-out');
+                        }
+                        
+                        // Helper function to find parent with class
+                        function findParentByClass(element, className) {
+                            while (element && !utils.hasClass(element, className)) {
+                                element = element.parentNode;
+                            }
+                            return element;
+                        }
+                        
+                        // Make the request
+                        var xhr = new XMLHttpRequest();
+                        xhr.open('GET', self.href, true);
+                        
+                        // Set up a timeout
+                        var timeoutId = setTimeout(function() {
+                            if (xhr.readyState !== 4) {
+                                xhr.abort();
+                                handleError('Request timed out. Please try again.');
+                            }
+                        }, 30000);  // 30 second timeout
+                        
+                        function handleError(message) {
+                            clearTimeout(timeoutId);
+                            utils.removeClass(self, 'loading');
+                            self.innerHTML = '<span class="button-text">Start</span>';
+                            
+                            if (loadingCard.parentNode) {
+                                loadingCard.style.opacity = '0';
+                                loadingCard.style.transform = 'translateY(20px)';
+                                setTimeout(function() {
+                                    loadingCard.parentNode.removeChild(loadingCard);
+                                }, 400);
+                            }
+                            
+                            if (card) {
+                                card.style.opacity = '1';
+                                card.style.transform = 'scale(1)';
+                            }
+                            
+                            alert(message);
+                        }
+                        
+                        xhr.onreadystatechange = function() {
+                            if (xhr.readyState === 4) {
+                                clearTimeout(timeoutId);
+                                
+                                if (xhr.status === 200 || xhr.status === 303) {
+                                    // Update loading card status
+                                    var statusEl = loadingCard.querySelector('.app-status');
+                                    if (statusEl) {
+                                        statusEl.textContent = 'Starting Server...';
+                                    }
+                                    
+                                    // Wait a bit then check if the app is running
+                                    setTimeout(function() {
+                                        window.location.reload();
+                                    }, 3000);
+                                } else {
+                                    handleError('Failed to start app. Please try again.');
+                                }
+                            }
+                        };
+                        
+                        xhr.send();
+                    };
+                    actions.appendChild(startBtn);
+                }
+                
+                // Delete Button
+                var deleteBtn = document.createElement('a');
+                deleteBtn.href = '/action?action=delete&app_name=' + encodeURIComponent(appName) + '&app_type=' + (appType === 'Web App' ? 'web' : 'cli');
+                deleteBtn.className = 'app-button delete';
+                deleteBtn.innerHTML = '<span class="button-text">Delete</span>';
+                deleteBtn.onclick = function(e) {
+                    if (!confirm('Are you sure you want to delete ' + appName + '?')) {
+                        e.preventDefault();
+                        return false;
+                    }
+                    card.style.opacity = '0.5';
+                    card.style.transform = 'scale(0.95)';
+                };
+                actions.appendChild(deleteBtn);
+            }
+            
+            card.appendChild(actions);
+            
+            // Add hover effect
+            card.onmouseover = function() {
+                this.style.transform = 'translateY(-2px)';
+            };
+            card.onmouseout = function() {
+                this.style.transform = 'none';
+            };
+            
+            return card;
+        }
+
+        // App filtering functionality
+        function filterApps(section, category) {
+            var container = document.getElementById(section + '-section');
+            if (!container) return;
+
+            // Update active tab
+            var tabs = container.getElementsByClassName('category-tab');
+            for (var i = 0; i < tabs.length; i++) {
+                if (tabs[i].textContent.toLowerCase().indexOf(category) !== -1) {
+                    utils.addClass(tabs[i], 'active');
+                } else {
+                    utils.removeClass(tabs[i], 'active');
+                }
+            }
+
+            // Filter apps
+            var cards = container.getElementsByClassName('app-card');
+            var visibleCount = 0;
+
+            for (var j = 0; j < cards.length; j++) {
+                var card = cards[j];
+                var type = card.getAttribute('data-type') || 
+                          (card.querySelector('.app-type') ? 
+                           card.querySelector('.app-type').textContent.toLowerCase() : '');
+
+                if (category === 'all' || type.indexOf(category.toLowerCase()) !== -1) {
+                    card.style.display = '';
+                    card.style.opacity = '0';
+                    card.style.transform = 'translateY(10px)';
+                    
+                    // Stagger the animations
+                    (function(card, index) {
+                        setTimeout(function() {
+                            card.style.opacity = '1';
+                            card.style.transform = 'translateY(0)';
+                        }, index * 50);
+                    })(card, visibleCount);
+                    
+                    visibleCount++;
+                } else {
+                    card.style.opacity = '0';
+                    card.style.transform = 'translateY(10px)';
+                    
+                    // Hide after fade out
+                    (function(card) {
+                        setTimeout(function() {
+                            card.style.display = 'none';
+                        }, 300);
+                    })(card);
+                }
+            }
+
+            // Show/hide no apps message
+            var noAppsMessage = container.querySelector('.no-apps-message');
+            if (noAppsMessage) {
+                if (visibleCount === 0) {
+                    noAppsMessage.style.display = 'block';
+                    setTimeout(function() {
+                        noAppsMessage.style.opacity = '1';
+                        noAppsMessage.style.transform = 'translateY(0)';
+                    }, 100);
+                } else {
+                    noAppsMessage.style.opacity = '0';
+                    noAppsMessage.style.transform = 'translateY(10px)';
+                    setTimeout(function() {
+                        noAppsMessage.style.display = 'none';
+                    }, 300);
+                }
+            }
+        }
+
+        // Initialize from URL hash and set up filtering
+        window.onload = function() {
+            var hash = window.location.hash.substring(1);
+            if (hash && (hash === 'running' || hash === 'installed' || hash === 'available')) {
+                showSection(hash);
+            }
+
+            // Initialize filters for installed and available sections
+            filterApps('installed', 'all');
+            filterApps('available', 'all');
+        };
+    </script>
+
+    <!-- Modal for App Details -->
+    <div id="appModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title" id="modalTitle">App Details</h2>
+                <span class="close" onclick="closeModal()">&times;</span>
+            </div>
+            <div class="modal-body" id="modalBody">
+                <div class="loading">Loading app details...</div>
+            </div>
+            <div class="modal-footer" id="modalFooter">
+                <!-- Install button will be inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+    // ES5 compatible modal functions
+    function openModal(appName, appType) {
+        var modal = document.getElementById('appModal');
+        var modalTitle = document.getElementById('modalTitle');
+        var modalBody = document.getElementById('modalBody');
+        var modalFooter = document.getElementById('modalFooter');
+        
+        // Set title
+        modalTitle.textContent = appName;
+        
+        // Show loading
+        modalBody.innerHTML = '<div class="loading">Loading app details...</div>';
+        modalFooter.innerHTML = '';
+        
+        // Show modal
+        modal.style.display = 'block';
+        
+        // Fetch app details
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', '/api/app-details?app_name=' + encodeURIComponent(appName) + '&app_type=' + appType, true);
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState === 4) {
+                if (xhr.status === 200) {
+                    try {
+                        var response = JSON.parse(xhr.responseText);
+                        modalBody.innerHTML = response.description || '<p>No description available.</p>';
+                        
+                        if (response.install_url) {
+                            modalFooter.innerHTML = '<a href="' + response.install_url + '" class="modal-install-button">Install</a>';
+                        } else {
+                            modalFooter.innerHTML = '<p>Installation not available.</p>';
+                        }
+                    } catch (e) {
+                        modalBody.innerHTML = '<p>Error loading app details.</p>';
+                        modalFooter.innerHTML = '';
+                    }
+                } else {
+                    modalBody.innerHTML = '<p>Error loading app details.</p>';
+                    modalFooter.innerHTML = '';
+                }
+            }
+        };
+        xhr.send();
+    }
+    
+    function closeModal() {
+        var modal = document.getElementById('appModal');
+        modal.style.display = 'none';
+    }
+    
+    // Close modal when clicking outside
+    window.onclick = function(event) {
+        var modal = document.getElementById('appModal');
+        if (event.target === modal) {
+            closeModal();
+        }
+    }
+    
+    // Load available apps after DOM ready
+    function loadAvailableApps() {
+        // Load CLI apps
+        var cliContainer = document.getElementById('available-cli-loading');
+        if (cliContainer) {
+            var xhr1 = new XMLHttpRequest();
+            xhr1.open('GET', '/api/available-cli', true);
+            xhr1.onreadystatechange = function() {
+                if (xhr1.readyState === 4) {
+                    if (xhr1.status === 200) {
+                        cliContainer.innerHTML = xhr1.responseText;
+                    } else {
+                        cliContainer.innerHTML = '<p>Error loading CLI apps</p>';
+                    }
+                }
+            };
+            xhr1.send();
+        }
+
+        // Load web apps
+        var webContainer = document.getElementById('available-web-loading');
+        if (webContainer) {
+            var xhr2 = new XMLHttpRequest();
+            xhr2.open('GET', '/api/available-web', true);
+            xhr2.onreadystatechange = function() {
+                if (xhr2.readyState === 4) {
+                    if (xhr2.status === 200) {
+                        webContainer.innerHTML = xhr2.responseText;
+                    } else {
+                        webContainer.innerHTML = '<p>Error loading web apps</p>';
+                    }
+                }
+            };
+            xhr2.send();
+        }
+    }
+
+    // Load available apps after DOM ready
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', loadAvailableApps);
+    } else {
+        loadAvailableApps();
+    }
+    </script>
+</body>
+</html>

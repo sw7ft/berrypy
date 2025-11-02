@@ -1,0 +1,41 @@
+{
+  "news": [
+    {
+      "id": 1,
+      "title": "Task Manager Performance Update",
+      "date": "2024-07-09",
+      "author": "Sw7ft",
+      "content": "We've significantly improved the Task Manager performance! The new version includes:\n\n- **Faster boot times** - 80-90% improvement in startup speed\n- **Optimized process scanning** - Better pidin usage for QNX devices\n- **Caching system** - 5-minute cache for network requests\n- **Modal app details** - Click apps to see descriptions before installing\n- **App name display** - Cleaner process list showing app names instead of full commands\n\nThese improvements make the Task Manager much more responsive on BlackBerry Passport devices.",
+      "category": "update",
+      "priority": "high"
+    },
+    {
+      "id": 2,
+      "title": "New App: Advanced File Manager",
+      "date": "2024-07-08",
+      "author": "Sw7ft",
+      "content": "A powerful file manager is now available in the CLI utilities section!\n\n**Features:**\n- Browse and manage files with ease\n- Copy, move, and delete operations\n- Search functionality\n- File permissions management\n- Archive creation and extraction\n\nPerfect for managing your BB10 device files efficiently.",
+      "category": "new-app",
+      "priority": "medium"
+    },
+    {
+      "id": 3,
+      "title": "Android APK Collection Updated",
+      "date": "2024-07-07",
+      "author": "Sw7ft",
+      "content": "We've added several new Android APKs to our collection:\n\n- **Termux** - Advanced terminal emulator\n- **F-Droid** - Open source app store\n- **K-9 Mail** - Email client\n- **Signal** - Secure messaging\n- **VLC** - Media player\n\nAll APKs are tested and compatible with BB10 Android runtime.",
+      "category": "android",
+      "priority": "medium"
+    },
+    {
+      "id": 4,
+      "title": "Auto-Start Configuration Guide",
+      "date": "2024-07-06",
+      "author": "Sw7ft",
+      "content": "Learn how to configure apps to start automatically when your device boots!\n\n**How to use Auto-Start:**\n1. Go to the Auto-Start Apps section\n2. Find the app you want to auto-start\n3. Click 'Enable Auto Start'\n4. The app will now start automatically on boot\n\nThis is perfect for essential apps like your web server or monitoring tools.",
+      "category": "guide",
+      "priority": "low"
+    }
+  ],
+  "last_updated": "2024-07-09T15:30:00Z"
+} 
