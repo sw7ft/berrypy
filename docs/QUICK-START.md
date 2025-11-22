@@ -16,7 +16,7 @@ Get up and running with BerryPy in 5 minutes.
 
 ### 1. Install Python
 ```bash
-qpkg install python
+qpkg install python3
 ```
 
 ### 2. Ensure BerryPy-Managed App Paths
